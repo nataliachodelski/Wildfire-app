@@ -6,23 +6,26 @@ provides-nominal:
 provides-member:
 - ["C13Hackathon_App11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationWillTerminate"
 - "applicationDidEnterBackground"
 - "application"
 - "applicationWillResignActive"
+- "applicationWillTerminate"
 - "applicationDidBecomeActive"
 - "window"
 - "applicationWillEnterForeground"
 depends-top-level:
-- "UIWindow"
-- "NSObject"
-- "AppDelegate"
 - !private "BooleanLiteralType"
-- "UIResponder"
+- "AppDelegate"
+- ">"
+- "NSObject"
 - "UIApplication"
-- "Bool"
-- "UIApplicationDelegate"
+- "/"
+- "FBSDKCoreKit"
 - "AnyObject"
+- "UIResponder"
+- "UIApplicationDelegate"
+- "UIWindow"
+- "Bool"
 depends-member:
 - ["Ps9AnyObject", "application"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]
@@ -217,6 +220,7 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/Natalia/Coding/iOS/interview_practice_code/Hackathon App/Hackathon App/Hackathon App-Bridging-Header.h"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
@@ -224,4 +228,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-interface-hash: "eb6deb7e97b205db2b1f8c4c6c87743c"
+interface-hash: "ea1ace7c78f29b074728299795c99df0"

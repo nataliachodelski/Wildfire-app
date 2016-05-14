@@ -20,6 +20,7 @@
 		E11CE1461CE79F690056B6C9 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11CE1431CE79F690056B6C9 /* FBSDKCoreKit.framework */; };
 		E11CE1471CE79F690056B6C9 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11CE1441CE79F690056B6C9 /* FBSDKLoginKit.framework */; };
 		E11CE1481CE79F690056B6C9 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11CE1451CE79F690056B6C9 /* FBSDKShareKit.framework */; };
+		E11CE14B1CE7A24D0056B6C9 /* Objective-CBridgingHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = E11CE14A1CE7A24D0056B6C9 /* Objective-CBridgingHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		E11CE1431CE79F690056B6C9 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		E11CE1441CE79F690056B6C9 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		E11CE1451CE79F690056B6C9 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		E11CE1491CE7A24D0056B6C9 /* Hackathon App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hackathon App-Bridging-Header.h"; sourceTree = "<group>"; };
+		E11CE14A1CE7A24D0056B6C9 /* Objective-CBridgingHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Objective-CBridgingHeader.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				E11CE1271CE792E40056B6C9 /* AppDelegate.swift */,
+				E11CE14A1CE7A24D0056B6C9 /* Objective-CBridgingHeader.m */,
 				E11CE1291CE792E40056B6C9 /* ViewController.swift */,
 				E11CE12B1CE792E40056B6C9 /* StartPage.storyboard */,
 				E11CE13B1CE79B8C0056B6C9 /* DataModel.swift */,
@@ -87,6 +91,7 @@
 				E11CE12E1CE792E40056B6C9 /* Assets.xcassets */,
 				E11CE1301CE792E40056B6C9 /* LaunchScreen.storyboard */,
 				E11CE1331CE792E40056B6C9 /* Info.plist */,
+				E11CE1491CE7A24D0056B6C9 /* Hackathon App-Bridging-Header.h */,
 			);
 			path = "Hackathon App";
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E11CE12A1CE792E40056B6C9 /* ViewController.swift in Sources */,
+				E11CE14B1CE7A24D0056B6C9 /* Objective-CBridgingHeader.m in Sources */,
 				E11CE1421CE79E0A0056B6C9 /* ProjectListTableViewController.swift in Sources */,
 				E11CE1281CE792E40056B6C9 /* AppDelegate.swift in Sources */,
 				E11CE1401CE79C810056B6C9 /* ProjectListTable.swift in Sources */,
@@ -283,6 +289,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -291,6 +298,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nataliachodelski.Hackathon-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hackathon App/Hackathon App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -298,6 +307,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -306,6 +316,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nataliachodelski.Hackathon-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hackathon App/Hackathon App-Bridging-Header.h";
 			};
 			name = Release;
 		};
