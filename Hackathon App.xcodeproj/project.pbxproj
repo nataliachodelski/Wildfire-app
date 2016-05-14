@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		E11CE1281CE792E40056B6C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11CE1271CE792E40056B6C9 /* AppDelegate.swift */; };
 		E11CE12A1CE792E40056B6C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11CE1291CE792E40056B6C9 /* ViewController.swift */; };
-		E11CE12D1CE792E40056B6C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11CE12B1CE792E40056B6C9 /* Main.storyboard */; };
+		E11CE12D1CE792E40056B6C9 /* StartPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11CE12B1CE792E40056B6C9 /* StartPage.storyboard */; };
 		E11CE12F1CE792E40056B6C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11CE12E1CE792E40056B6C9 /* Assets.xcassets */; };
 		E11CE1321CE792E40056B6C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11CE1301CE792E40056B6C9 /* LaunchScreen.storyboard */; };
+		E11CE13A1CE795670056B6C9 /* FindCauses.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11CE1391CE795670056B6C9 /* FindCauses.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E11CE1241CE792E40056B6C9 /* Hackathon App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hackathon App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11CE1271CE792E40056B6C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E11CE1291CE792E40056B6C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E11CE12C1CE792E40056B6C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E11CE12C1CE792E40056B6C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/StartPage.storyboard; sourceTree = "<group>"; };
 		E11CE12E1CE792E40056B6C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E11CE1311CE792E40056B6C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E11CE1331CE792E40056B6C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E11CE1391CE795670056B6C9 /* FindCauses.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FindCauses.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +58,8 @@
 			children = (
 				E11CE1271CE792E40056B6C9 /* AppDelegate.swift */,
 				E11CE1291CE792E40056B6C9 /* ViewController.swift */,
-				E11CE12B1CE792E40056B6C9 /* Main.storyboard */,
+				E11CE12B1CE792E40056B6C9 /* StartPage.storyboard */,
+				E11CE1391CE795670056B6C9 /* FindCauses.storyboard */,
 				E11CE12E1CE792E40056B6C9 /* Assets.xcassets */,
 				E11CE1301CE792E40056B6C9 /* LaunchScreen.storyboard */,
 				E11CE1331CE792E40056B6C9 /* Info.plist */,
@@ -123,8 +126,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E11CE1321CE792E40056B6C9 /* LaunchScreen.storyboard in Resources */,
+				E11CE13A1CE795670056B6C9 /* FindCauses.storyboard in Resources */,
 				E11CE12F1CE792E40056B6C9 /* Assets.xcassets in Resources */,
-				E11CE12D1CE792E40056B6C9 /* Main.storyboard in Resources */,
+				E11CE12D1CE792E40056B6C9 /* StartPage.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,12 +147,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E11CE12B1CE792E40056B6C9 /* Main.storyboard */ = {
+		E11CE12B1CE792E40056B6C9 /* StartPage.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E11CE12C1CE792E40056B6C9 /* Base */,
 			);
-			name = Main.storyboard;
+			name = StartPage.storyboard;
 			sourceTree = "<group>";
 		};
 		E11CE1301CE792E40056B6C9 /* LaunchScreen.storyboard */ = {
