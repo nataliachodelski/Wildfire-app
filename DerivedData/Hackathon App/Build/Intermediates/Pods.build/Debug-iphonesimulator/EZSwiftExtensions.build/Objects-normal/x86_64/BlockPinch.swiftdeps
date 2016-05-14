@@ -11,8 +11,8 @@ depends-top-level:
 - "Selector"
 - "AnyObject"
 - "Void"
-- "BlockPinch"
 - "UIPinchGestureRecognizer"
+- "BlockPinch"
 depends-member:
 - !private ["Ps9AnyObject", "BlockPinch"]
 - !private ["Ps9AnyObject", "addTarget"]

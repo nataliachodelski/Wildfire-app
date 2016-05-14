@@ -10,3 +10,4 @@ pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
 pod 'EZSwiftExtensions'	   # easy syntax tricks 
 
 end
+

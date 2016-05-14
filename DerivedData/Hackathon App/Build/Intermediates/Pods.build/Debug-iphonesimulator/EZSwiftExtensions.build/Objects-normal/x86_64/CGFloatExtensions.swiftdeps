@@ -11,9 +11,9 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "*"
-- !private "M_PI"
 - "CGFloat"
 - !private "/"
+- !private "M_PI"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "CGFloat"]
 - !private ["Ps16AbsoluteValuable", "M_PI"]

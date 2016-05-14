@@ -7,9 +7,9 @@ provides-member:
 - ["Sb", "toggle"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Int"
 - "Bool"
 - !private "!"
+- "Int"
 depends-member:
 - !private ["Ps22BidirectionalIndexType", "init"]
 - !private ["Ps21BitwiseOperationsType", "init"]

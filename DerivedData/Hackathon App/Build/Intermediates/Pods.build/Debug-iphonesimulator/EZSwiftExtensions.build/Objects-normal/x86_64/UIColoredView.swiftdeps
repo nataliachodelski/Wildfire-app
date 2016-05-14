@@ -9,11 +9,11 @@ provides-dynamic-lookup:
 depends-top-level:
 - "UIColoredView"
 - !private "CGRect"
+- !private "StringLiteralType"
+- "UIView"
 - "NSCoder"
 - !private "UIColor"
 - !private "fatalError"
-- "UIView"
-- !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "CGRect"]
 - !private ["Ps9AnyObject", "UIColor"]

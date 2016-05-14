@@ -12,29 +12,29 @@ provides-member:
 - ["CSo7UIColor", "alpha"]
 - ["CSo7UIColor", "randomColor"]
 provides-dynamic-lookup:
-- "redComponent"
 - "randomColor"
+- "alpha"
 - "greenComponent"
 - "blueComponent"
-- "alpha"
+- "redComponent"
 depends-top-level:
 - "UIColor"
-- !private ">>"
-- !private "Float"
+- !private "arc4random"
+- "Int"
 - !private "/"
+- !private "Float"
+- !private "UINT32_MAX"
 - !private "StringLiteralType"
 - "String"
-- "Int"
-- "CGFloat"
-- "Bool"
-- !private "UINT32_MAX"
-- !private "-"
-- !private "UnicodeScalarType"
 - !private "&"
 - !private "+"
+- "CGFloat"
+- !private "-"
+- !private "UnicodeScalarType"
+- "Bool"
 - !private "*"
+- !private ">>"
 - "BooleanLiteralType"
-- !private "arc4random"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "CGFloat"]
 - !private ["Ps16AbsoluteValuable", "Float"]

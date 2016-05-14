@@ -8,10 +8,10 @@ provides-member:
 provides-dynamic-lookup:
 - "didPan"
 depends-top-level:
+- "Selector"
+- "BlockPan"
 - "AnyObject"
 - "Void"
-- "BlockPan"
-- "Selector"
 - "UIPanGestureRecognizer"
 depends-member:
 - !private ["Ps9AnyObject", "BlockPan"]

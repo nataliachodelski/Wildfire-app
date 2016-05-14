@@ -11,13 +11,13 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "*"
-- !private "ceil"
 - !private "round"
-- "String"
-- "Double"
-- !private "pow"
 - "Int"
+- "String"
+- !private "ceil"
+- "Double"
 - !private "/"
+- !private "pow"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "Double"]
 - !private ["Ps16AbsoluteValuable", "Int"]

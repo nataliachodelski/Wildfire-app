@@ -7,12 +7,12 @@ provides-member:
 provides-dynamic-lookup:
 - "setValue"
 depends-top-level:
+- !private "BooleanLiteralType"
+- "UISlider"
+- "Float"
 - "Double"
 - !private "UIView"
-- "UISlider"
 - !private "Void"
-- !private "BooleanLiteralType"
-- "Float"
 depends-member:
 - !private ["Ps9AnyObject", "UIView"]
 - !private ["Ps9AnyObject", "animateWithDuration"]

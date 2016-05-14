@@ -10,8 +10,8 @@ provides-member:
 - ["VSC6CGRect", "h"]
 provides-dynamic-lookup:
 depends-top-level:
-- "CGRect"
 - "CGFloat"
+- "CGRect"
 depends-member:
 - !private ["VSC7CGPoint", "x"]
 - !private ["VSC7CGPoint", "y"]
