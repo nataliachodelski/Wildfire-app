@@ -6,25 +6,25 @@ provides-nominal:
 provides-member:
 - ["C17EZSwiftExtensions12BlockWebView", ""]
 provides-dynamic-lookup:
-- "didStartLoad"
-- "didFailLoad"
-- "shouldStartLoadingRequest"
-- "webView"
-- "webView"
-- "webViewDidFinishLoad"
 - "webViewDidStartLoad"
+- "shouldStartLoadingRequest"
+- "didStartLoad"
+- "webViewDidFinishLoad"
+- "webView"
+- "webView"
+- "didFailLoad"
 - "didFinishLoad"
 depends-top-level:
-- "NSError"
-- "UIWebView"
 - "UIWebViewNavigationType"
-- "Bool"
 - "NSCoder"
-- "UIWebViewDelegate"
-- !private "BooleanLiteralType"
-- "CGRect"
-- "BlockWebView"
 - "NSURLRequest"
+- "Bool"
+- "CGRect"
+- "UIWebViewDelegate"
+- "UIWebView"
+- "NSError"
+- "BlockWebView"
+- !private "BooleanLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "delegate"]
 - ["Ps9AnyObject", "didFailLoad"]

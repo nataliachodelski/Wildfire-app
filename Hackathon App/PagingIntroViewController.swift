@@ -16,18 +16,16 @@ class PagingIntroViewController: UIViewController, UIScrollViewDelegate {
     //var scrollview = UIScrollView!
 
     @IBOutlet weak var scrollView: UIScrollView!
+    
     @IBOutlet weak var button: UIButton!
     
     @IBOutlet weak var pageControl: UIPageControl!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-    
-
-        
         scrollView.frame = CGRectMake(0, 0, self.view.size.width, self.view.size.height)
+        
         let scrollViewWidth: CGFloat = self.scrollView.frame.width
         let scrollViewHeight: CGFloat = self.scrollView.frame.height
         
@@ -39,18 +37,26 @@ class PagingIntroViewController: UIViewController, UIScrollViewDelegate {
         imgTwo.image =  UIImage(named: "Intro2")
         imgThree.image = UIImage(named: "Intro3")
         
+        imgOne.scaleImageFrameToHeight(height: scrollViewHeight)
+        imgTwo.scaleImageFrameToHeight(height: scrollViewHeight)
+        imgThree.scaleImageFrameToHeight(height: scrollViewHeight)
+
+        scrollView.addSubview(imgOne)
+        scrollView.addSubview(imgTwo)
+        scrollView.addSubview(imgThree)
         
-        self.scrollView.addSubview(imgOne)
-        self.scrollView.addSubview(imgTwo)
-        self.scrollView.addSubview(imgThree)
+        imgOne.userInteractionEnabled = true
         
-        //4
-        self.scrollView.contentSize = CGSizeMake(self.scrollView.frame.width * 4, self.scrollView.frame.height)
         
-        self.scrollView.delegate = self
-        self.pageControl.currentPage = 0
+        scrollView.contentSize = CGSize(width: self.scrollView.frame.width * 3, height: self.scrollView.frame.height)
         
-    
+        scrollView.pagingEnabled = true
+        scrollView.userInteractionEnabled = true
+
+        scrollView.delegate = self
+        pageControl.currentPage = 0
+        
+        print("view size is \(view.size), imageview size is \(imgTwo.size), scrollview size is \(scrollView.size), contenst size is \(scrollView.contentSize)")
         
         }
         
@@ -64,12 +70,13 @@ class PagingIntroViewController: UIViewController, UIScrollViewDelegate {
 
     func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
 
-        // Test the offset and calculate the current page after scrolling ends
-        let pageWidth:CGFloat = CGRectGetWidth(scrollView.frame)
-        let currentPage:CGFloat = floor((scrollView.contentOffset.x - pageWidth / 2) / pageWidth) + 1
-        // Change the indicator
-        self.pageControl.currentPage = Int(currentPage);
-        // Change the text accordingly
+        
+            let pageNumber = round(scrollView.contentOffset.x / scrollView.frame.size.width)
+            pageControl.currentPage = Int(pageNumber)
+        
+//            let pageWidth:CGFloat = CGRectGetWidth(scrollView.frame)
+//            let currentPage:CGFloat = floor((scrollView.contentOffset.x - pageWidth / 2) / pageWidth) + 1
+//            self.pageControl.currentPage = Int(currentPage);
     }
     
     override func didReceiveMemoryWarning() {

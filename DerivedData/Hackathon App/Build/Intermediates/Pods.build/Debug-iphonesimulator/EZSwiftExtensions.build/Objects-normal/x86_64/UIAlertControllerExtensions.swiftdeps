@@ -7,8 +7,8 @@ provides-member:
 provides-dynamic-lookup:
 - "show"
 depends-top-level:
-- !private "UIApplication"
 - !private "BooleanLiteralType"
+- !private "UIApplication"
 - "UIAlertController"
 depends-member:
 - !private ["Ps9AnyObject", "UIApplication"]

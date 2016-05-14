@@ -7,8 +7,8 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "UIColor"
-- "UIViewController"
 - "UIWindow"
+- "UIViewController"
 - !private "UIScreen"
 depends-member:
 - !private ["Ps9AnyObject", "UIScreen"]

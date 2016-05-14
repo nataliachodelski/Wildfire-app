@@ -8,8 +8,8 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Character"
-- "String"
 - "Int"
+- "String"
 depends-member:
 - !private ["Ps22BidirectionalIndexType", "init"]
 - !private ["Ps21BitwiseOperationsType", "init"]

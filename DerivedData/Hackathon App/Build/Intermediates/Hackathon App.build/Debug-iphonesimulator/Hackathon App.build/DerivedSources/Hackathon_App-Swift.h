@@ -94,6 +94,7 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
 @import ObjectiveC;
+@import CoreGraphics;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -101,11 +102,13 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 @class UIWindow;
 @class UIApplication;
 @class NSObject;
+@class NSURL;
 
 SWIFT_CLASS("_TtC13Hackathon_App11AppDelegate")
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 @property (nonatomic, strong) UIWindow * _Nullable window;
 - (BOOL)application:(UIApplication * _Nonnull)application didFinishLaunchingWithOptions:(NSDictionary * _Nullable)launchOptions;
+- (BOOL)application:(UIApplication * _Nonnull)application openURL:(NSURL * _Nonnull)url sourceApplication:(NSString * _Nullable)sourceApplication annotation:(id _Nullable)annotation;
 - (void)applicationWillResignActive:(UIApplication * _Nonnull)application;
 - (void)applicationDidEnterBackground:(UIApplication * _Nonnull)application;
 - (void)applicationWillEnterForeground:(UIApplication * _Nonnull)application;
@@ -120,9 +123,29 @@ SWIFT_CLASS("_TtC13Hackathon_App9DataModel")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIImage;
+@class UIScrollView;
+@class UIButton;
+@class UIPageControl;
+@class NSBundle;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC13Hackathon_App25PagingIntroViewController")
+@interface PagingIntroViewController : UIViewController <UIScrollViewDelegate>
+@property (nonatomic, copy) NSArray<UIImage *> * _Nonnull images;
+@property (nonatomic) CGRect frame;
+@property (nonatomic, weak) IBOutlet UIScrollView * _Null_unspecified scrollView;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified button;
+@property (nonatomic, weak) IBOutlet UIPageControl * _Null_unspecified pageControl;
+- (void)viewDidLoad;
+- (void)scrollViewDidEndDecelerating:(UIScrollView * _Nonnull)scrollView;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIImageView;
 @class UILabel;
-@class NSCoder;
 
 SWIFT_CLASS("_TtC13Hackathon_App15ProjectListCell")
 @interface ProjectListCell : UITableViewCell
@@ -136,7 +159,6 @@ SWIFT_CLASS("_TtC13Hackathon_App15ProjectListCell")
 
 @class UITableView;
 @class NSIndexPath;
-@class NSBundle;
 
 SWIFT_CLASS("_TtC13Hackathon_App30ProjectListTableViewController")
 @interface ProjectListTableViewController : UITableViewController
@@ -150,7 +172,6 @@ SWIFT_CLASS("_TtC13Hackathon_App30ProjectListTableViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIImage;
 
 SWIFT_CLASS("_TtC13Hackathon_App13ProjectObject")
 @interface ProjectObject : NSObject
@@ -159,15 +180,6 @@ SWIFT_CLASS("_TtC13Hackathon_App13ProjectObject")
 @property (nonatomic, copy) NSString * _Null_unspecified location;
 @property (nonatomic, strong) UIImage * _Null_unspecified image;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC13Hackathon_App14ViewController")
-@interface ViewController : UIViewController
-- (void)viewDidLoad;
-- (void)didReceiveMemoryWarning;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 #pragma clang diagnostic pop

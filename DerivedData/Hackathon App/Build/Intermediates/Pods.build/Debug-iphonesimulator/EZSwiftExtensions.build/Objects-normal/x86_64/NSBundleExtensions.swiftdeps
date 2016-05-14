@@ -8,9 +8,9 @@ provides-member:
 provides-dynamic-lookup:
 - "loadNib"
 depends-top-level:
-- "String"
-- "AnyObject"
 - "NSBundle"
+- "AnyObject"
+- "String"
 depends-member:
 - !private ["Ps9AnyObject", "NSBundle"]
 - ["Ps9AnyObject", "loadNib"]

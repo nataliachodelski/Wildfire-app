@@ -7,8 +7,8 @@ provides-member:
 provides-dynamic-lookup:
 - "queryParameters"
 depends-top-level:
-- "NSURL"
 - "String"
+- "NSURL"
 - !private "NSURLComponents"
 - !private "BooleanLiteralType"
 depends-member:

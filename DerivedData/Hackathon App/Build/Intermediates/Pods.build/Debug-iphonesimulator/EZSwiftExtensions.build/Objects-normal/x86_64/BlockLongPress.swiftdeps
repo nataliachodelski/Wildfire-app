@@ -9,11 +9,11 @@ provides-dynamic-lookup:
 - "didLongPressed"
 depends-top-level:
 - "Void"
-- "Selector"
-- "BlockLongPress"
-- !private "=="
 - "AnyObject"
 - "UILongPressGestureRecognizer"
+- "Selector"
+- !private "=="
+- "BlockLongPress"
 - !private "UIGestureRecognizerState"
 depends-member:
 - !private ["Ps9AnyObject", "BlockLongPress"]

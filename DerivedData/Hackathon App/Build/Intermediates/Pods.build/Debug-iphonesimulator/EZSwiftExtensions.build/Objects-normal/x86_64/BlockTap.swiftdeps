@@ -8,12 +8,12 @@ provides-member:
 provides-dynamic-lookup:
 - "didTap"
 depends-top-level:
+- "Int"
+- "BlockTap"
 - "Selector"
+- "Void"
 - "AnyObject"
 - "UITapGestureRecognizer"
-- "BlockTap"
-- "Int"
-- "Void"
 depends-member:
 - !private ["Ps9AnyObject", "BlockTap"]
 - !private ["Ps9AnyObject", "addTarget"]
