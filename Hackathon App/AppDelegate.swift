@@ -8,7 +8,6 @@
 
 import UIKit
 import FBSDKCoreKit
-import FBS
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
