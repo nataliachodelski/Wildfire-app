@@ -1,10 +1,10 @@
 version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
 options: "7137c2bb28560fda9ed5522a87766c31"
-build_time: [516574279, 906514000]
+build_time: [516582967, 552195000]
 inputs:
   "/Users/Natalia/Coding/iOS/Hackathon App/Hackathon App/LoginViewController.swift": [516570904, 0]
   "/Users/Natalia/Coding/iOS/Hackathon App/ProjectListTableViewController.swift": [516564074, 0]
-  "/Users/Natalia/Coding/iOS/Hackathon App/Hackathon App/PagingIntroViewController.swift": [516574217, 0]
+  "/Users/Natalia/Coding/iOS/Hackathon App/Hackathon App/PagingIntroViewController.swift": [516582967, 0]
   "/Users/Natalia/Coding/iOS/Hackathon App/Hackathon App/AppDelegate.swift": [516566791, 0]
   "/Users/Natalia/Coding/iOS/Hackathon App/Hackathon App/ProjectListTable.swift": [516563771, 0]
   "/Users/Natalia/Coding/iOS/Hackathon App/Hackathon App/DataModel.swift": [516563308, 0]

@@ -17,6 +17,7 @@ class PagingIntroViewController: UIViewController, UIScrollViewDelegate {
     var frame: CGRect = CGRectMake(0, 0, 0, 0)
     var pageControl = UIPageControl()
     
+    @IBOutlet weak var invisibleButton: UIButton!
     let image1 = UIImage(named: "Intro1")
     let image2 =  UIImage(named: "Intro2")
     let image3 = UIImage(named: "Intro3")
@@ -25,6 +26,9 @@ class PagingIntroViewController: UIViewController, UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        invisibleButton.enabled = false
+        //invisibleButton.addTarget(self, action: #selector(PagingIntroViewController.buttonClicked(_:)), forControlEvents: UIControlEvents.AllTouchEvents)
+        invisibleButton.setBackgroundColor(UIColor.redColor(), forState: UIControlState.Selected)
         scrollView = UIScrollView(frame: CGRectMake(0, 0, self.view.size.width, self.view.size.height))
 
         images = [image1!, image2!, image3!, image4!]
@@ -43,8 +47,27 @@ class PagingIntroViewController: UIViewController, UIScrollViewDelegate {
             
             var subView = UIImageView(frame: frame)
             subView.image = images[index]
+            
+            if index == 3 {
+                //invisibleButton.enabled = true
+                
+                var button = UIButton(frame: CGRect(x: view.size.width * 1/4, y: view.size.height * 0.85, w: view.size.width * 1/2, h: 40))
+                    button.setImage(UIImage(named: "LoginButton"), forState: UIControlState.Normal)
+                button.enabled = true
+                button.userInteractionEnabled = true
+                button.setBackgroundColor(UIColor.redColor(), forState: UIControlState.Selected)
+                //button.addTapGesture(target: self, action: #selector(PagingIntroViewController.buttonClicked))
+                //button.addTapGesture(self, action: #selector(PagingIntroViewController.buttonClicked), forControlEvents: UIControlEvents.TouchUpInside)
+                button.addTarget(self, action: #selector(PagingIntroViewController.buttonClicked(_:)), forControlEvents: UIControlEvents.AllTouchEvents)
+                button.sizeToFit()
+                button.autoresizingMask = UIViewAutoresizing.FlexibleBottomMargin
+
+                scrollView.addSubview(button)
+            }
             self.scrollView .addSubview(subView)
+            
         }
+        
         
         self.scrollView.contentSize = CGSizeMake(self.scrollView.frame.size.width * 4, self.scrollView.frame.size.height)
         pageControl.addTarget(self, action: #selector(PagingIntroViewController.changePage(_:)), forControlEvents: UIControlEvents.ValueChanged)
@@ -52,6 +75,10 @@ class PagingIntroViewController: UIViewController, UIScrollViewDelegate {
         
     }
     
+    func buttonClicked(sender:UIButton!) {
+        print("button clicked")
+        performSegueWithIdentifier("goToTableview", sender: self)
+    }
     
     func configurePageControl() {
         // The total number of pages that are available is based on how many available colors we have.
@@ -94,10 +121,7 @@ class PagingIntroViewController: UIViewController, UIScrollViewDelegate {
 //        imgTwo.scaleImageFrameToHeight(height: scrollViewHeight)
 //        imgThree.scaleImageFrameToHeight(height: scrollViewHeight)
 //
-//         button.setTitle("Login", forState: UIControlState.Normal)
-//        button.backgroundColor = UIColor.yellowColor()
-//        
-//        button.frame = CGRectMake(view.size.width * 1/3, 0.9 * view.size.height, view.size.width * 1/3, 10)
+//
     
     
 //        pageControl.frame = CGRect(x: view.size.width * 0.1, y: view.size.height - 10, width: view.size.width * 0.8, height: 10)
