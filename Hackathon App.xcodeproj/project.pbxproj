@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21AA8CCE1CE7E9550020CF44 /* projects.json in Resources */ = {isa = PBXBuildFile; fileRef = 21AA8CCD1CE7E9550020CF44 /* projects.json */; };
 		E11CE1281CE792E40056B6C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11CE1271CE792E40056B6C9 /* AppDelegate.swift */; };
 		E11CE12A1CE792E40056B6C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11CE1291CE792E40056B6C9 /* ViewController.swift */; };
 		E11CE12D1CE792E40056B6C9 /* StartPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11CE12B1CE792E40056B6C9 /* StartPage.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21AA8CCD1CE7E9550020CF44 /* projects.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = projects.json; sourceTree = "<group>"; };
 		E11CE1241CE792E40056B6C9 /* Hackathon App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hackathon App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11CE1271CE792E40056B6C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E11CE1291CE792E40056B6C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				E11CE1271CE792E40056B6C9 /* AppDelegate.swift */,
 				E11CE1291CE792E40056B6C9 /* ViewController.swift */,
+				21AA8CCD1CE7E9550020CF44 /* projects.json */,
 				E11CE12B1CE792E40056B6C9 /* StartPage.storyboard */,
 				E11CE1391CE795670056B6C9 /* FindCauses.storyboard */,
 				E11CE12E1CE792E40056B6C9 /* Assets.xcassets */,
@@ -127,6 +130,7 @@
 			files = (
 				E11CE1321CE792E40056B6C9 /* LaunchScreen.storyboard in Resources */,
 				E11CE13A1CE795670056B6C9 /* FindCauses.storyboard in Resources */,
+				21AA8CCE1CE7E9550020CF44 /* projects.json in Resources */,
 				E11CE12F1CE792E40056B6C9 /* Assets.xcassets in Resources */,
 				E11CE12D1CE792E40056B6C9 /* StartPage.storyboard in Resources */,
 			);
@@ -292,6 +296,7 @@
 				E11CE1381CE792E40056B6C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
