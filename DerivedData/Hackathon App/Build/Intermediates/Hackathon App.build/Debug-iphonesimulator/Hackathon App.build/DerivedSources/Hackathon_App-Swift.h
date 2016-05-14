@@ -93,6 +93,7 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import ObjectiveC;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -113,8 +114,53 @@ SWIFT_CLASS("_TtC13Hackathon_App11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSBundle;
+
+SWIFT_CLASS("_TtC13Hackathon_App9DataModel")
+@interface DataModel : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIImageView;
+@class UILabel;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC13Hackathon_App15ProjectListCell")
+@interface ProjectListCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified projectImage;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified projectName;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified projectDescription;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified projectLocation;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITableView;
+@class NSIndexPath;
+@class NSBundle;
+
+SWIFT_CLASS("_TtC13Hackathon_App30ProjectListTableViewController")
+@interface ProjectListTableViewController : UITableViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIImage;
+
+SWIFT_CLASS("_TtC13Hackathon_App13ProjectObject")
+@interface ProjectObject : NSObject
+@property (nonatomic, copy) NSString * _Null_unspecified title;
+@property (nonatomic, copy) NSString * _Null_unspecified projectDescription;
+@property (nonatomic, copy) NSString * _Null_unspecified location;
+@property (nonatomic, strong) UIImage * _Null_unspecified image;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC13Hackathon_App14ViewController")
 @interface ViewController : UIViewController

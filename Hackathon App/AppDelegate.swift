@@ -7,6 +7,8 @@
 //
 
 import UIKit
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
