@@ -123,23 +123,32 @@ SWIFT_CLASS("_TtC13Hackathon_App9DataModel")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIImage;
 @class UIScrollView;
-@class UIButton;
+@class UIImage;
 @class UIPageControl;
+@class UIButton;
+@class UIStoryboardSegue;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC13Hackathon_App25PagingIntroViewController")
 @interface PagingIntroViewController : UIViewController <UIScrollViewDelegate>
+@property (nonatomic, strong) UIScrollView * _Null_unspecified scrollView;
 @property (nonatomic, copy) NSArray<UIImage *> * _Nonnull images;
 @property (nonatomic) CGRect frame;
-@property (nonatomic, weak) IBOutlet UIScrollView * _Null_unspecified scrollView;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified button;
-@property (nonatomic, weak) IBOutlet UIPageControl * _Null_unspecified pageControl;
+@property (nonatomic, strong) UIPageControl * _Nonnull pageControl;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified invisibleButton;
+@property (nonatomic, readonly, strong) UIImage * _Nullable image1;
+@property (nonatomic, readonly, strong) UIImage * _Nullable image2;
+@property (nonatomic, readonly, strong) UIImage * _Nullable image3;
+@property (nonatomic, readonly, strong) UIImage * _Nullable image4;
 - (void)viewDidLoad;
+- (void)buttonClicked:(UIButton * _Null_unspecified)sender;
+- (void)configurePageControl;
+- (void)changePage:(id _Nonnull)sender;
 - (void)scrollViewDidEndDecelerating:(UIScrollView * _Nonnull)scrollView;
 - (void)didReceiveMemoryWarning;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
