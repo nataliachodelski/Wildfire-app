@@ -6,28 +6,28 @@ provides-nominal:
 provides-member:
 - ["C13Hackathon_App11AppDelegate", ""]
 provides-dynamic-lookup:
-- "window"
 - "applicationWillEnterForeground"
-- "applicationWillTerminate"
-- "applicationWillResignActive"
 - "applicationDidBecomeActive"
+- "application"
+- "application"
+- "applicationWillResignActive"
+- "applicationWillTerminate"
 - "applicationDidEnterBackground"
-- "application"
-- "application"
+- "window"
 depends-top-level:
-- "NSObject"
-- "UIApplicationDelegate"
-- !private "BooleanLiteralType"
 - !private "FBSDKApplicationDelegate"
-- "UIApplication"
-- "Bool"
-- "String"
-- "AnyObject"
-- "UIResponder"
 - "AppDelegate"
-- "NSURL"
+- !private "BooleanLiteralType"
+- "UIResponder"
+- "AnyObject"
+- "Bool"
+- "NSObject"
 - !private "FBSDKAppEvents"
+- "UIApplication"
+- "String"
+- "NSURL"
 - "UIWindow"
+- "UIApplicationDelegate"
 depends-member:
 - !private ["Ps9AnyObject", "FBSDKAppEvents"]
 - !private ["Ps9AnyObject", "FBSDKApplicationDelegate"]

@@ -26,10 +26,9 @@ class PagingIntroViewController: UIViewController, UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        invisibleButton.enabled = false
-        //invisibleButton.addTarget(self, action: #selector(PagingIntroViewController.buttonClicked(_:)), forControlEvents: UIControlEvents.AllTouchEvents)
-        invisibleButton.setBackgroundColor(UIColor.redColor(), forState: UIControlState.Selected)
+        invisibleButton.addTarget(self, action: #selector(PagingIntroViewController.buttonClicked(_:)), forControlEvents: UIControlEvents.TouchUpInside)
         scrollView = UIScrollView(frame: CGRectMake(0, 0, self.view.size.width, self.view.size.height))
+        invisibleButton.enabled = false
 
         images = [image1!, image2!, image3!, image4!]
         
@@ -49,23 +48,21 @@ class PagingIntroViewController: UIViewController, UIScrollViewDelegate {
             subView.image = images[index]
             
             if index == 3 {
-                //invisibleButton.enabled = true
+                invisibleButton.enabled = true
+                self.scrollView.addSubview(invisibleButton)
                 
                 var button = UIButton(frame: CGRect(x: view.size.width * 1/4, y: view.size.height * 0.85, w: view.size.width * 1/2, h: 40))
                     button.setImage(UIImage(named: "LoginButton"), forState: UIControlState.Normal)
                 button.enabled = true
-                button.userInteractionEnabled = true
-                button.setBackgroundColor(UIColor.redColor(), forState: UIControlState.Selected)
-                //button.addTapGesture(target: self, action: #selector(PagingIntroViewController.buttonClicked))
-                //button.addTapGesture(self, action: #selector(PagingIntroViewController.buttonClicked), forControlEvents: UIControlEvents.TouchUpInside)
-                button.addTarget(self, action: #selector(PagingIntroViewController.buttonClicked(_:)), forControlEvents: UIControlEvents.AllTouchEvents)
                 button.sizeToFit()
                 button.autoresizingMask = UIViewAutoresizing.FlexibleBottomMargin
-
-                scrollView.addSubview(button)
+                
+//                //button.userInteractionEnabled = true
+//                button.setBackgroundColor(UIColor.redColor(), forState: UIControlState.Selected)
+//                button.addTarget(self, action: #selector(PagingIntroViewController.buttonClicked(_:)), forControlEvents: UIControlEvents.TouchDown)
+                subView.addSubview(button)
             }
-            self.scrollView .addSubview(subView)
-            
+            self.scrollView.addSubview(subView)
         }
         
         

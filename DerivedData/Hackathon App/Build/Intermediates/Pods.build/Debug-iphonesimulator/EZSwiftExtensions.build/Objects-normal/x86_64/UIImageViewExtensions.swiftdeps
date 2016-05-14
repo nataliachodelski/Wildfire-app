@@ -14,24 +14,24 @@ provides-member:
 - ["CSo11UIImageView", "imageWithUrl"]
 - ["CSo11UIImageView", "imageWithUrl"]
 provides-dynamic-lookup:
+- "roundSquareImage"
 - "imageWithUrl"
 - "imageWithUrl"
 - "imageWithUrl"
 - "scaleImageFrameToWidth"
 - "scaleImageFrameToHeight"
-- "roundSquareImage"
 depends-top-level:
-- !private "print"
-- "CGFloat"
+- "UIImage"
 - !private "Void"
+- "String"
+- "CGFloat"
+- !private "!="
 - !private "StringLiteralType"
+- !private "print"
+- !private "/"
 - "UIImageView"
 - !private "assertionFailure"
-- !private "!="
-- "UIImage"
 - !private "ez"
-- "String"
-- !private "/"
 - !private "CGRect"
 - !private "BooleanLiteralType"
 depends-member:

@@ -19,17 +19,17 @@ provides-dynamic-lookup:
 - "AvenirNextRegular"
 - "AvenirNextDemiBold"
 depends-top-level:
-- "String"
-- "FontName"
-- "UIFont"
-- !private "UnicodeScalarType"
-- !private "print"
-- "CGFloat"
-- "=="
-- !private "~="
-- "StringLiteralType"
-- "FontType"
 - !private "+"
+- "UIFont"
+- "FontName"
+- "String"
+- !private "UnicodeScalarType"
+- "FontType"
+- "StringLiteralType"
+- !private "print"
+- !private "~="
+- "=="
+- "CGFloat"
 depends-member:
 - ["Ps9AnyObject", "AvenirNext"]
 - ["Ps9AnyObject", "AvenirNextDemiBold"]

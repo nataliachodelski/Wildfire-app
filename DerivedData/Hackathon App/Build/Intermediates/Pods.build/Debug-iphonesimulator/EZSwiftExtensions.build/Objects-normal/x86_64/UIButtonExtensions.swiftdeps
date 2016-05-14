@@ -8,21 +8,21 @@ provides-member:
 provides-dynamic-lookup:
 - "setBackgroundColor"
 depends-top-level:
-- "UIColor"
 - "Selector"
+- !private "CGContextSetFillColorWithColor"
+- !private "UIGraphicsEndImageContext"
+- "UIColor"
+- "CGFloat"
+- !private "UIGraphicsGetCurrentContext"
+- !private "UIGraphicsGetImageFromCurrentImageContext"
+- "UIControlState"
+- "UIButton"
 - !private "UIGraphicsBeginImageContext"
 - !private "CGContextFillRect"
-- !private "CGRect"
 - !private "UIControlEvents"
 - !private "CGSize"
-- !private "CGContextSetFillColorWithColor"
-- !private "UIGraphicsGetImageFromCurrentImageContext"
-- "UIButton"
-- "CGFloat"
-- "UIControlState"
+- !private "CGRect"
 - "AnyObject"
-- !private "UIGraphicsGetCurrentContext"
-- !private "UIGraphicsEndImageContext"
 depends-member:
 - !private ["Ps9AnyObject", "CGColor"]
 - !private ["Ps9AnyObject", "CGContextFillRect"]

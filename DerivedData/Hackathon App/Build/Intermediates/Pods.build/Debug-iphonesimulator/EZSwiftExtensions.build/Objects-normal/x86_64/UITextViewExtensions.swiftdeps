@@ -9,21 +9,21 @@ provides-member:
 provides-dynamic-lookup:
 - "addDoneButton"
 depends-top-level:
-- "CGFloat"
 - !private "UIToolbar"
-- "UITextView"
-- !private "UIColor"
-- !private "StringLiteralType"
-- !private "NSTextAlignment"
-- "UIBarStyle"
-- !private "UIBarButtonItem"
 - "String"
 - !private "??"
-- !private "Array"
-- !private "UIFont"
-- !private "BooleanLiteralType"
 - !private "CGRect"
+- !private "UIFont"
+- !private "StringLiteralType"
+- "UITextView"
+- "UIBarStyle"
+- !private "NSTextAlignment"
 - !private "FontType"
+- "CGFloat"
+- !private "Array"
+- !private "UIColor"
+- !private "BooleanLiteralType"
+- !private "UIBarButtonItem"
 depends-member:
 - !private ["Ps9AnyObject", "CGRect"]
 - !private ["Ps9AnyObject", "FontType"]
