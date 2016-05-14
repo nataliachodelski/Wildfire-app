@@ -124,9 +124,9 @@ SWIFT_CLASS("_TtC13Hackathon_App9DataModel")
 @end
 
 @class UIImage;
-@class UIScrollView;
-@class UIButton;
 @class UIPageControl;
+@class UIButton;
+@class UIScrollView;
 @class NSBundle;
 @class NSCoder;
 
@@ -135,8 +135,8 @@ SWIFT_CLASS("_TtC13Hackathon_App25PagingIntroViewController")
 @property (nonatomic, copy) NSArray<UIImage *> * _Nonnull images;
 @property (nonatomic) CGRect frame;
 @property (nonatomic, weak) IBOutlet UIScrollView * _Null_unspecified scrollView;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified button;
-@property (nonatomic, weak) IBOutlet UIPageControl * _Null_unspecified pageControl;
+@property (nonatomic, strong) UIPageControl * _Null_unspecified pageControl;
+@property (nonatomic, strong) UIButton * _Nonnull button;
 - (void)viewDidLoad;
 - (void)scrollViewDidEndDecelerating:(UIScrollView * _Nonnull)scrollView;
 - (void)didReceiveMemoryWarning;
