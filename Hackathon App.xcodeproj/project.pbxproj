@@ -67,6 +67,9 @@
 		847358205BBBFE5E00D17662 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E11CE1431CE79F690056B6C9 /* FBSDKCoreKit.framework */,
+				E11CE1441CE79F690056B6C9 /* FBSDKLoginKit.framework */,
+				E11CE1451CE79F690056B6C9 /* FBSDKShareKit.framework */,
 				8740729504D1542B200E3350 /* Pods_Hackathon_App.framework */,
 			);
 			name = Frameworks;
@@ -86,9 +89,6 @@
 			children = (
 				E11CE1261CE792E40056B6C9 /* Hackathon App */,
 				E11CE1251CE792E40056B6C9 /* Products */,
-				E11CE1431CE79F690056B6C9 /* FBSDKCoreKit.framework */,
-				E11CE1441CE79F690056B6C9 /* FBSDKLoginKit.framework */,
-				E11CE1451CE79F690056B6C9 /* FBSDKShareKit.framework */,
 				D0CD9D80D2BFC6464C33E532 /* Pods */,
 				847358205BBBFE5E00D17662 /* Frameworks */,
 			);
