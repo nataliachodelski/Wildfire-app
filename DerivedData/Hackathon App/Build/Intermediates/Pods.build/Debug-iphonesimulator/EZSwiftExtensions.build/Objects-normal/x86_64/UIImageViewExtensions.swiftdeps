@@ -1,0 +1,507 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo11UIImageView", ""]
+- ["CSo11UIImageView", "init"]
+- ["CSo11UIImageView", "init"]
+- ["CSo11UIImageView", "init"]
+- ["CSo11UIImageView", "init"]
+- ["CSo11UIImageView", "scaleImageFrameToWidth"]
+- ["CSo11UIImageView", "scaleImageFrameToHeight"]
+- ["CSo11UIImageView", "roundSquareImage"]
+- ["CSo11UIImageView", "imageWithUrl"]
+- ["CSo11UIImageView", "imageWithUrl"]
+- ["CSo11UIImageView", "imageWithUrl"]
+provides-dynamic-lookup:
+- "imageWithUrl"
+- "imageWithUrl"
+- "imageWithUrl"
+- "scaleImageFrameToWidth"
+- "scaleImageFrameToHeight"
+- "roundSquareImage"
+depends-top-level:
+- !private "print"
+- "CGFloat"
+- !private "Void"
+- !private "StringLiteralType"
+- "UIImageView"
+- !private "assertionFailure"
+- !private "!="
+- "UIImage"
+- !private "ez"
+- "String"
+- !private "/"
+- !private "CGRect"
+- !private "BooleanLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "CGRect"]
+- !private ["Ps9AnyObject", "UIImage"]
+- !private ["Ps9AnyObject", "assertionFailure"]
+- !private ["Ps9AnyObject", "clipsToBounds"]
+- !private ["Ps9AnyObject", "cornerRadius"]
+- !private ["Ps9AnyObject", "ez"]
+- !private ["Ps9AnyObject", "frame"]
+- !private ["Ps9AnyObject", "image"]
+- ["Ps9AnyObject", "imageWithUrl"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "layer"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "roundSquareImage"]
+- ["Ps9AnyObject", "scaleImageFrameToHeight"]
+- ["Ps9AnyObject", "scaleImageFrameToWidth"]
+- !private ["Ps9AnyObject", "size"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["CSo7CALayer", "cornerRadius"]
+- !private ["PSo13CAMediaTiming", "cornerRadius"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["VSC6CGRect", "init"]
+- !private ["VSC6CGRect", "origin"]
+- !private ["VSC6CGRect", "size"]
+- !private ["VSC6CGSize", "height"]
+- !private ["VSC6CGSize", "width"]
+- !private ["Ps11CVarArgType", "CGRect"]
+- !private ["Ps11CVarArgType", "UIImage"]
+- !private ["Ps11CVarArgType", "assertionFailure"]
+- !private ["Ps11CVarArgType", "clipsToBounds"]
+- !private ["Ps11CVarArgType", "cornerRadius"]
+- !private ["Ps11CVarArgType", "ez"]
+- !private ["Ps11CVarArgType", "frame"]
+- !private ["Ps11CVarArgType", "image"]
+- ["Ps11CVarArgType", "imageWithUrl"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "layer"]
+- !private ["Ps11CVarArgType", "print"]
+- ["Ps11CVarArgType", "roundSquareImage"]
+- ["Ps11CVarArgType", "scaleImageFrameToHeight"]
+- ["Ps11CVarArgType", "scaleImageFrameToWidth"]
+- !private ["Ps11CVarArgType", "size"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CGRect"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImage"]
+- !private ["Ps28CustomDebugStringConvertible", "assertionFailure"]
+- !private ["Ps28CustomDebugStringConvertible", "clipsToBounds"]
+- !private ["Ps28CustomDebugStringConvertible", "cornerRadius"]
+- !private ["Ps28CustomDebugStringConvertible", "ez"]
+- !private ["Ps28CustomDebugStringConvertible", "frame"]
+- !private ["Ps28CustomDebugStringConvertible", "image"]
+- ["Ps28CustomDebugStringConvertible", "imageWithUrl"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "layer"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- ["Ps28CustomDebugStringConvertible", "roundSquareImage"]
+- ["Ps28CustomDebugStringConvertible", "scaleImageFrameToHeight"]
+- ["Ps28CustomDebugStringConvertible", "scaleImageFrameToWidth"]
+- !private ["Ps28CustomDebugStringConvertible", "size"]
+- !private ["Ps23CustomStringConvertible", "CGRect"]
+- !private ["Ps23CustomStringConvertible", "UIImage"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "assertionFailure"]
+- !private ["Ps23CustomStringConvertible", "clipsToBounds"]
+- !private ["Ps23CustomStringConvertible", "cornerRadius"]
+- !private ["Ps23CustomStringConvertible", "ez"]
+- !private ["Ps23CustomStringConvertible", "frame"]
+- !private ["Ps23CustomStringConvertible", "image"]
+- ["Ps23CustomStringConvertible", "imageWithUrl"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "layer"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- ["Ps23CustomStringConvertible", "roundSquareImage"]
+- ["Ps23CustomStringConvertible", "scaleImageFrameToHeight"]
+- ["Ps23CustomStringConvertible", "scaleImageFrameToWidth"]
+- !private ["Ps23CustomStringConvertible", "size"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "CGRect"]
+- !private ["Ps9Equatable", "UIImage"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "assertionFailure"]
+- !private ["Ps9Equatable", "clipsToBounds"]
+- !private ["Ps9Equatable", "cornerRadius"]
+- !private ["Ps9Equatable", "ez"]
+- !private ["Ps9Equatable", "frame"]
+- !private ["Ps9Equatable", "height"]
+- !private ["Ps9Equatable", "image"]
+- ["Ps9Equatable", "imageWithUrl"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "layer"]
+- !private ["Ps9Equatable", "origin"]
+- !private ["Ps9Equatable", "print"]
+- ["Ps9Equatable", "roundSquareImage"]
+- ["Ps9Equatable", "scaleImageFrameToHeight"]
+- ["Ps9Equatable", "scaleImageFrameToWidth"]
+- !private ["Ps9Equatable", "size"]
+- !private ["Ps9Equatable", "width"]
+- !private ["Ps9Equatable", "x"]
+- !private ["Ps9Equatable", "y"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "CGRect"]
+- !private ["Ps8Hashable", "UIImage"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "assertionFailure"]
+- !private ["Ps8Hashable", "clipsToBounds"]
+- !private ["Ps8Hashable", "cornerRadius"]
+- !private ["Ps8Hashable", "ez"]
+- !private ["Ps8Hashable", "frame"]
+- !private ["Ps8Hashable", "image"]
+- ["Ps8Hashable", "imageWithUrl"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "layer"]
+- !private ["Ps8Hashable", "print"]
+- ["Ps8Hashable", "roundSquareImage"]
+- ["Ps8Hashable", "scaleImageFrameToHeight"]
+- ["Ps8Hashable", "scaleImageFrameToWidth"]
+- !private ["Ps8Hashable", "size"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "CGRect"]
+- !private ["PSo8NSCoding", "UIImage"]
+- !private ["PSo8NSCoding", "assertionFailure"]
+- !private ["PSo8NSCoding", "clipsToBounds"]
+- !private ["PSo8NSCoding", "cornerRadius"]
+- !private ["PSo8NSCoding", "ez"]
+- !private ["PSo8NSCoding", "frame"]
+- !private ["PSo8NSCoding", "image"]
+- ["PSo8NSCoding", "imageWithUrl"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "layer"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "roundSquareImage"]
+- ["PSo8NSCoding", "scaleImageFrameToHeight"]
+- ["PSo8NSCoding", "scaleImageFrameToWidth"]
+- !private ["PSo8NSCoding", "size"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIImage"]
+- !private ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "assertionFailure"]
+- !private ["CSo8NSObject", "clipsToBounds"]
+- !private ["CSo8NSObject", "cornerRadius"]
+- !private ["CSo8NSObject", "ez"]
+- !private ["CSo8NSObject", "frame"]
+- !private ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "imageWithUrl"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "layer"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "roundSquareImage"]
+- ["CSo8NSObject", "scaleImageFrameToHeight"]
+- ["CSo8NSObject", "scaleImageFrameToWidth"]
+- !private ["CSo8NSObject", "size"]
+- !private ["PSo16NSObjectProtocol", "CGRect"]
+- !private ["PSo16NSObjectProtocol", "UIImage"]
+- !private ["PSo16NSObjectProtocol", "assertionFailure"]
+- !private ["PSo16NSObjectProtocol", "clipsToBounds"]
+- !private ["PSo16NSObjectProtocol", "cornerRadius"]
+- !private ["PSo16NSObjectProtocol", "ez"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- ["PSo16NSObjectProtocol", "imageWithUrl"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "roundSquareImage"]
+- ["PSo16NSObjectProtocol", "scaleImageFrameToHeight"]
+- ["PSo16NSObjectProtocol", "scaleImageFrameToWidth"]
+- !private ["PSo16NSObjectProtocol", "size"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "size"]
+- !private ["CSo8NSString", "init"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["Ps10Streamable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "CGRect"]
+- !private ["PSo29UIAccessibilityIdentification", "UIImage"]
+- !private ["PSo29UIAccessibilityIdentification", "assertionFailure"]
+- !private ["PSo29UIAccessibilityIdentification", "clipsToBounds"]
+- !private ["PSo29UIAccessibilityIdentification", "ez"]
+- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- !private ["PSo29UIAccessibilityIdentification", "image"]
+- ["PSo29UIAccessibilityIdentification", "imageWithUrl"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "layer"]
+- !private ["PSo29UIAccessibilityIdentification", "print"]
+- ["PSo29UIAccessibilityIdentification", "roundSquareImage"]
+- ["PSo29UIAccessibilityIdentification", "scaleImageFrameToHeight"]
+- ["PSo29UIAccessibilityIdentification", "scaleImageFrameToWidth"]
+- !private ["PSo29UIAccessibilityIdentification", "size"]
+- !private ["PSo12UIAppearance", "CGRect"]
+- !private ["PSo12UIAppearance", "UIImage"]
+- !private ["PSo12UIAppearance", "assertionFailure"]
+- !private ["PSo12UIAppearance", "clipsToBounds"]
+- !private ["PSo12UIAppearance", "ez"]
+- !private ["PSo12UIAppearance", "frame"]
+- !private ["PSo12UIAppearance", "image"]
+- ["PSo12UIAppearance", "imageWithUrl"]
+- ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "layer"]
+- !private ["PSo12UIAppearance", "print"]
+- ["PSo12UIAppearance", "roundSquareImage"]
+- ["PSo12UIAppearance", "scaleImageFrameToHeight"]
+- ["PSo12UIAppearance", "scaleImageFrameToWidth"]
+- !private ["PSo21UIAppearanceContainer", "CGRect"]
+- !private ["PSo21UIAppearanceContainer", "UIImage"]
+- !private ["PSo21UIAppearanceContainer", "assertionFailure"]
+- !private ["PSo21UIAppearanceContainer", "clipsToBounds"]
+- !private ["PSo21UIAppearanceContainer", "ez"]
+- !private ["PSo21UIAppearanceContainer", "frame"]
+- !private ["PSo21UIAppearanceContainer", "image"]
+- ["PSo21UIAppearanceContainer", "imageWithUrl"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "layer"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "roundSquareImage"]
+- ["PSo21UIAppearanceContainer", "scaleImageFrameToHeight"]
+- ["PSo21UIAppearanceContainer", "scaleImageFrameToWidth"]
+- !private ["PSo17UICoordinateSpace", "CGRect"]
+- !private ["PSo17UICoordinateSpace", "UIImage"]
+- !private ["PSo17UICoordinateSpace", "assertionFailure"]
+- !private ["PSo17UICoordinateSpace", "clipsToBounds"]
+- !private ["PSo17UICoordinateSpace", "ez"]
+- !private ["PSo17UICoordinateSpace", "frame"]
+- !private ["PSo17UICoordinateSpace", "image"]
+- ["PSo17UICoordinateSpace", "imageWithUrl"]
+- ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "layer"]
+- !private ["PSo17UICoordinateSpace", "print"]
+- ["PSo17UICoordinateSpace", "roundSquareImage"]
+- ["PSo17UICoordinateSpace", "scaleImageFrameToHeight"]
+- ["PSo17UICoordinateSpace", "scaleImageFrameToWidth"]
+- !private ["PSo13UIDynamicItem", "CGRect"]
+- !private ["PSo13UIDynamicItem", "UIImage"]
+- !private ["PSo13UIDynamicItem", "assertionFailure"]
+- !private ["PSo13UIDynamicItem", "clipsToBounds"]
+- !private ["PSo13UIDynamicItem", "ez"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- !private ["PSo13UIDynamicItem", "image"]
+- ["PSo13UIDynamicItem", "imageWithUrl"]
+- ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "layer"]
+- !private ["PSo13UIDynamicItem", "print"]
+- ["PSo13UIDynamicItem", "roundSquareImage"]
+- ["PSo13UIDynamicItem", "scaleImageFrameToHeight"]
+- ["PSo13UIDynamicItem", "scaleImageFrameToWidth"]
+- !private ["PSo18UIFocusEnvironment", "CGRect"]
+- !private ["PSo18UIFocusEnvironment", "UIImage"]
+- !private ["PSo18UIFocusEnvironment", "assertionFailure"]
+- !private ["PSo18UIFocusEnvironment", "clipsToBounds"]
+- !private ["PSo18UIFocusEnvironment", "ez"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
+- !private ["PSo18UIFocusEnvironment", "image"]
+- ["PSo18UIFocusEnvironment", "imageWithUrl"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "roundSquareImage"]
+- ["PSo18UIFocusEnvironment", "scaleImageFrameToHeight"]
+- ["PSo18UIFocusEnvironment", "scaleImageFrameToWidth"]
+- !private ["CSo7UIImage", "init"]
+- !private ["CSo7UIImage", "size"]
+- ["CSo11UIImageView", "CGFloat"]
+- !private ["CSo11UIImageView", "CGRect"]
+- ["CSo11UIImageView", "String"]
+- ["CSo11UIImageView", "UIImage"]
+- !private ["CSo11UIImageView", "Void"]
+- !private ["CSo11UIImageView", "assertionFailure"]
+- !private ["CSo11UIImageView", "clipsToBounds"]
+- !private ["CSo11UIImageView", "ez"]
+- !private ["CSo11UIImageView", "frame"]
+- !private ["CSo11UIImageView", "image"]
+- ["CSo11UIImageView", "imageWithUrl"]
+- ["CSo11UIImageView", "init"]
+- !private ["CSo11UIImageView", "layer"]
+- !private ["CSo11UIImageView", "print"]
+- ["CSo11UIImageView", "roundSquareImage"]
+- ["CSo11UIImageView", "scaleImageFrameToHeight"]
+- ["CSo11UIImageView", "scaleImageFrameToWidth"]
+- ["CSo11UIResponder", "CGFloat"]
+- !private ["CSo11UIResponder", "CGRect"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIImage"]
+- !private ["CSo11UIResponder", "Void"]
+- !private ["CSo11UIResponder", "assertionFailure"]
+- !private ["CSo11UIResponder", "clipsToBounds"]
+- !private ["CSo11UIResponder", "ez"]
+- !private ["CSo11UIResponder", "frame"]
+- !private ["CSo11UIResponder", "image"]
+- ["CSo11UIResponder", "imageWithUrl"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "layer"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "roundSquareImage"]
+- ["CSo11UIResponder", "scaleImageFrameToHeight"]
+- ["CSo11UIResponder", "scaleImageFrameToWidth"]
+- !private ["PSo18UITraitEnvironment", "CGRect"]
+- !private ["PSo18UITraitEnvironment", "UIImage"]
+- !private ["PSo18UITraitEnvironment", "assertionFailure"]
+- !private ["PSo18UITraitEnvironment", "clipsToBounds"]
+- !private ["PSo18UITraitEnvironment", "ez"]
+- !private ["PSo18UITraitEnvironment", "frame"]
+- !private ["PSo18UITraitEnvironment", "image"]
+- ["PSo18UITraitEnvironment", "imageWithUrl"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "layer"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "roundSquareImage"]
+- ["PSo18UITraitEnvironment", "scaleImageFrameToHeight"]
+- ["PSo18UITraitEnvironment", "scaleImageFrameToWidth"]
+- ["CSo6UIView", "CGFloat"]
+- !private ["CSo6UIView", "CGRect"]
+- ["CSo6UIView", "String"]
+- ["CSo6UIView", "UIImage"]
+- !private ["CSo6UIView", "Void"]
+- !private ["CSo6UIView", "assertionFailure"]
+- !private ["CSo6UIView", "clipsToBounds"]
+- !private ["CSo6UIView", "ez"]
+- !private ["CSo6UIView", "frame"]
+- !private ["CSo6UIView", "image"]
+- ["CSo6UIView", "imageWithUrl"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "layer"]
+- !private ["CSo6UIView", "print"]
+- ["CSo6UIView", "roundSquareImage"]
+- ["CSo6UIView", "scaleImageFrameToHeight"]
+- ["CSo6UIView", "scaleImageFrameToWidth"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps24_ImageLiteralConvertible", "init"]
+- !private ["Ps24_ImageLiteralConvertible", "size"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps12_Reflectable", "CGRect"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "UIImage"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "assertionFailure"]
+- !private ["Ps12_Reflectable", "clipsToBounds"]
+- !private ["Ps12_Reflectable", "ez"]
+- !private ["Ps12_Reflectable", "frame"]
+- !private ["Ps12_Reflectable", "height"]
+- !private ["Ps12_Reflectable", "image"]
+- ["Ps12_Reflectable", "imageWithUrl"]
+- ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "layer"]
+- !private ["Ps12_Reflectable", "origin"]
+- !private ["Ps12_Reflectable", "print"]
+- ["Ps12_Reflectable", "roundSquareImage"]
+- ["Ps12_Reflectable", "scaleImageFrameToHeight"]
+- ["Ps12_Reflectable", "scaleImageFrameToWidth"]
+- !private ["Ps12_Reflectable", "size"]
+- !private ["Ps12_Reflectable", "width"]
+- !private ["Ps12_Reflectable", "x"]
+- !private ["Ps12_Reflectable", "y"]
+- !private ["V17EZSwiftExtensions2ez", "requestImage"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "CSo7CALayer"
+- !private "PSo13CAMediaTiming"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC7CGPoint"
+- !private "VSC6CGRect"
+- !private "VSC6CGSize"
+- "Ps11CVarArgType"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps14MirrorPathType"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "Ps16OutputStreamType"
+- !private "Vs12StaticString"
+- !private "Ps10Streamable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo7UIImage"
+- "CSo11UIImageView"
+- "CSo11UIResponder"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps24_ImageLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- "Ps12_Reflectable"
+- !private "V17EZSwiftExtensions2ez"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/Natalia/Coding/iOS/Hackathon App/Pods/Target Support Files/EZSwiftExtensions/EZSwiftExtensions-umbrella.h"
+- "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Intermediates/Pods.build/Debug-iphonesimulator/EZSwiftExtensions.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "c08444e428c3318ca060827bb687be72"

@@ -1,0 +1,687 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ez"
+provides-nominal:
+- "V17EZSwiftExtensions2ez"
+provides-member:
+- ["V17EZSwiftExtensions2ez", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "String"
+- !private "dispatch_after"
+- "UIViewController"
+- "UIInterfaceOrientation"
+- "dispatch_queue_t"
+- !private "kCFRunLoopCommonModes"
+- !private "??"
+- !private "*"
+- !private "NSBundle"
+- !private "CFRunLoopAddTimer"
+- !private "kCFBundleVersionKey"
+- "Bool"
+- !private "CFRunLoopGetCurrent"
+- !private "sysctlbyname"
+- "ez"
+- !private "BooleanLiteralType"
+- !private "NSURLRequest"
+- !private "Int"
+- !private "-"
+- !private "&&"
+- !private "CFAbsoluteTimeGetCurrent"
+- !private "StringLiteralType"
+- !private "CChar"
+- !private "DISPATCH_QUEUE_PRIORITY_DEFAULT"
+- "dispatch_block_t"
+- "NSError"
+- !private "+"
+- !private "dispatch_get_global_queue"
+- !private "UIApplication"
+- !private "UIScreen"
+- !private "NSLocaleCountryCode"
+- !private "NSURLSession"
+- !private "NSLocale"
+- !private "!="
+- !private "UIApplicationUserDidTakeScreenshotNotification"
+- !private "UIInterfaceOrientationIsPortrait"
+- !private "NSJSONReadingOptions"
+- "Double"
+- !private "kCFAllocatorDefault"
+- !private "CFRunLoopTimerCreateWithHandler"
+- "UIImage"
+- !private "NSNotificationCenter"
+- !private "dispatch_async"
+- !private "DISPATCH_TIME_NOW"
+- !private "dispatch_get_main_queue"
+- !private "NSData"
+- !private "UnicodeScalarType"
+- !private "NSJSONSerialization"
+- "UIUserInterfaceSizeClass"
+- !private "NSOperationQueue"
+- !private "dispatch_time"
+- !private "assertionFailure"
+- !private "NSEC_PER_SEC"
+- "Void"
+- !private "Int64"
+- !private "=="
+- "NSTimer"
+- !private "print"
+- "CGFloat"
+- "AnyObject"
+- !private "NSURL"
+- "NSTimeInterval"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "JSONObjectWithData"]
+- !private ["Ps9AnyObject", "addObserverForName"]
+- !private ["Ps9AnyObject", "bounds"]
+- !private ["Ps9AnyObject", "currentLocale"]
+- !private ["Ps9AnyObject", "dataTaskWithRequest"]
+- !private ["Ps9AnyObject", "defaultCenter"]
+- !private ["Ps9AnyObject", "fromCString"]
+- !private ["Ps9AnyObject", "horizontalSizeClass"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "keyWindow"]
+- !private ["Ps9AnyObject", "mainBundle"]
+- !private ["Ps9AnyObject", "mainQueue"]
+- !private ["Ps9AnyObject", "mainScreen"]
+- !private ["Ps9AnyObject", "objectForInfoDictionaryKey"]
+- !private ["Ps9AnyObject", "objectForKey"]
+- !private ["Ps9AnyObject", "presentedViewController"]
+- !private ["Ps9AnyObject", "resume"]
+- !private ["Ps9AnyObject", "rootViewController"]
+- !private ["Ps9AnyObject", "sharedApplication"]
+- !private ["Ps9AnyObject", "sharedSession"]
+- !private ["Ps9AnyObject", "statusBarFrame"]
+- !private ["Ps9AnyObject", "statusBarOrientation"]
+- !private ["Ps9AnyObject", "traitCollection"]
+- !private ["Ps9AnyObject", "verticalSizeClass"]
+- !private ["Sa", "init"]
+- !private ["Ps23ArrayLiteralConvertible", "AllowFragments"]
+- !private ["Ps23ArrayLiteralConvertible", "init"]
+- !private ["Ps22BidirectionalIndexType", "init"]
+- !private ["Ps21BitwiseOperationsType", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["CSo8CFString", "deinit"]
+- !private ["VSC6CGRect", "height"]
+- !private ["VSC6CGRect", "size"]
+- !private ["VSC6CGSize", "height"]
+- !private ["VSC6CGSize", "width"]
+- !private ["Ps11CVarArgType", "JSONObjectWithData"]
+- !private ["Ps11CVarArgType", "addObserverForName"]
+- !private ["Ps11CVarArgType", "bounds"]
+- !private ["Ps11CVarArgType", "currentLocale"]
+- !private ["Ps11CVarArgType", "dataTaskWithRequest"]
+- !private ["Ps11CVarArgType", "defaultCenter"]
+- !private ["Ps11CVarArgType", "fromCString"]
+- !private ["Ps11CVarArgType", "horizontalSizeClass"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "keyWindow"]
+- !private ["Ps11CVarArgType", "mainBundle"]
+- !private ["Ps11CVarArgType", "mainQueue"]
+- !private ["Ps11CVarArgType", "mainScreen"]
+- !private ["Ps11CVarArgType", "objectForInfoDictionaryKey"]
+- !private ["Ps11CVarArgType", "objectForKey"]
+- !private ["Ps11CVarArgType", "presentedViewController"]
+- !private ["Ps11CVarArgType", "resume"]
+- !private ["Ps11CVarArgType", "rootViewController"]
+- !private ["Ps11CVarArgType", "sharedApplication"]
+- !private ["Ps11CVarArgType", "sharedSession"]
+- !private ["Ps11CVarArgType", "statusBarFrame"]
+- !private ["Ps11CVarArgType", "statusBarOrientation"]
+- !private ["Ps11CVarArgType", "traitCollection"]
+- !private ["Ps11CVarArgType", "verticalSizeClass"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps14CollectionType", "init"]
+- !private ["Ps10Comparable", "fromCString"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "JSONObjectWithData"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "addObserverForName"]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- !private ["Ps28CustomDebugStringConvertible", "currentLocale"]
+- !private ["Ps28CustomDebugStringConvertible", "dataTaskWithRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "defaultCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "fromCString"]
+- !private ["Ps28CustomDebugStringConvertible", "horizontalSizeClass"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "keyWindow"]
+- !private ["Ps28CustomDebugStringConvertible", "mainBundle"]
+- !private ["Ps28CustomDebugStringConvertible", "mainQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "mainScreen"]
+- !private ["Ps28CustomDebugStringConvertible", "objectForInfoDictionaryKey"]
+- !private ["Ps28CustomDebugStringConvertible", "objectForKey"]
+- !private ["Ps28CustomDebugStringConvertible", "presentedViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "resume"]
+- !private ["Ps28CustomDebugStringConvertible", "rootViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedApplication"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedSession"]
+- !private ["Ps28CustomDebugStringConvertible", "statusBarFrame"]
+- !private ["Ps28CustomDebugStringConvertible", "statusBarOrientation"]
+- !private ["Ps28CustomDebugStringConvertible", "traitCollection"]
+- !private ["Ps28CustomDebugStringConvertible", "verticalSizeClass"]
+- !private ["Ps23CustomStringConvertible", "JSONObjectWithData"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addObserverForName"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
+- !private ["Ps23CustomStringConvertible", "currentLocale"]
+- !private ["Ps23CustomStringConvertible", "dataTaskWithRequest"]
+- !private ["Ps23CustomStringConvertible", "defaultCenter"]
+- !private ["Ps23CustomStringConvertible", "fromCString"]
+- !private ["Ps23CustomStringConvertible", "horizontalSizeClass"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "keyWindow"]
+- !private ["Ps23CustomStringConvertible", "mainBundle"]
+- !private ["Ps23CustomStringConvertible", "mainQueue"]
+- !private ["Ps23CustomStringConvertible", "mainScreen"]
+- !private ["Ps23CustomStringConvertible", "objectForInfoDictionaryKey"]
+- !private ["Ps23CustomStringConvertible", "objectForKey"]
+- !private ["Ps23CustomStringConvertible", "presentedViewController"]
+- !private ["Ps23CustomStringConvertible", "resume"]
+- !private ["Ps23CustomStringConvertible", "rootViewController"]
+- !private ["Ps23CustomStringConvertible", "sharedApplication"]
+- !private ["Ps23CustomStringConvertible", "sharedSession"]
+- !private ["Ps23CustomStringConvertible", "statusBarFrame"]
+- !private ["Ps23CustomStringConvertible", "statusBarOrientation"]
+- !private ["Ps23CustomStringConvertible", "traitCollection"]
+- !private ["Ps23CustomStringConvertible", "verticalSizeClass"]
+- !private ["Sd", "deinit"]
+- !private ["Sd", "init"]
+- !private ["Ps9Equatable", "AllowFragments"]
+- !private ["Ps9Equatable", "JSONObjectWithData"]
+- !private ["Ps9Equatable", "Unspecified"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addObserverForName"]
+- !private ["Ps9Equatable", "bounds"]
+- !private ["Ps9Equatable", "currentLocale"]
+- !private ["Ps9Equatable", "dataTaskWithRequest"]
+- !private ["Ps9Equatable", "defaultCenter"]
+- !private ["Ps9Equatable", "fromCString"]
+- !private ["Ps9Equatable", "height"]
+- !private ["Ps9Equatable", "horizontalSizeClass"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "keyWindow"]
+- !private ["Ps9Equatable", "mainBundle"]
+- !private ["Ps9Equatable", "mainQueue"]
+- !private ["Ps9Equatable", "mainScreen"]
+- !private ["Ps9Equatable", "objectForInfoDictionaryKey"]
+- !private ["Ps9Equatable", "objectForKey"]
+- !private ["Ps9Equatable", "presentedViewController"]
+- !private ["Ps9Equatable", "resume"]
+- !private ["Ps9Equatable", "rootViewController"]
+- !private ["Ps9Equatable", "sharedApplication"]
+- !private ["Ps9Equatable", "sharedSession"]
+- !private ["Ps9Equatable", "size"]
+- !private ["Ps9Equatable", "statusBarFrame"]
+- !private ["Ps9Equatable", "statusBarOrientation"]
+- !private ["Ps9Equatable", "traitCollection"]
+- !private ["Ps9Equatable", "verticalSizeClass"]
+- !private ["Ps9Equatable", "width"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "fromCString"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps23FloatLiteralConvertible", "init"]
+- !private ["Ps17FloatingPointType", "init"]
+- !private ["Ps16ForwardIndexType", "init"]
+- !private ["Ps8Hashable", "JSONObjectWithData"]
+- !private ["Ps8Hashable", "Unspecified"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addObserverForName"]
+- !private ["Ps8Hashable", "bounds"]
+- !private ["Ps8Hashable", "currentLocale"]
+- !private ["Ps8Hashable", "dataTaskWithRequest"]
+- !private ["Ps8Hashable", "defaultCenter"]
+- !private ["Ps8Hashable", "fromCString"]
+- !private ["Ps8Hashable", "horizontalSizeClass"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "keyWindow"]
+- !private ["Ps8Hashable", "mainBundle"]
+- !private ["Ps8Hashable", "mainQueue"]
+- !private ["Ps8Hashable", "mainScreen"]
+- !private ["Ps8Hashable", "objectForInfoDictionaryKey"]
+- !private ["Ps8Hashable", "objectForKey"]
+- !private ["Ps8Hashable", "presentedViewController"]
+- !private ["Ps8Hashable", "resume"]
+- !private ["Ps8Hashable", "rootViewController"]
+- !private ["Ps8Hashable", "sharedApplication"]
+- !private ["Ps8Hashable", "sharedSession"]
+- !private ["Ps8Hashable", "statusBarFrame"]
+- !private ["Ps8Hashable", "statusBarOrientation"]
+- !private ["Ps8Hashable", "traitCollection"]
+- !private ["Ps8Hashable", "verticalSizeClass"]
+- !private ["SQ", "deinit"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Si", "deinit"]
+- !private ["Si", "init"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs5Int64", "init"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps21IntegerArithmeticType", "init"]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["Ps11IntegerType", "init"]
+- !private ["Ps14MirrorPathType", "fromCString"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["Ps21MutableCollectionType", "init"]
+- !private ["Ps16MutableIndexable", "init"]
+- !private ["Ps16MutableSliceable", "init"]
+- !private ["CSo8NSBundle", "mainBundle"]
+- !private ["CSo8NSBundle", "objectForInfoDictionaryKey"]
+- !private ["PSo8NSCoding", "currentLocale"]
+- !private ["PSo8NSCoding", "fromCString"]
+- !private ["PSo8NSCoding", "horizontalSizeClass"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "objectForKey"]
+- !private ["PSo8NSCoding", "presentedViewController"]
+- !private ["PSo8NSCoding", "rootViewController"]
+- !private ["PSo8NSCoding", "traitCollection"]
+- !private ["PSo8NSCoding", "verticalSizeClass"]
+- !private ["PSo9NSCopying", "currentLocale"]
+- !private ["PSo9NSCopying", "fromCString"]
+- !private ["PSo9NSCopying", "horizontalSizeClass"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "objectForKey"]
+- !private ["PSo9NSCopying", "resume"]
+- !private ["PSo9NSCopying", "verticalSizeClass"]
+- !private ["PSo26NSExtensionRequestHandling", "presentedViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "traitCollection"]
+- !private ["VSC20NSJSONReadingOptions", "AllowFragments"]
+- !private ["CSo19NSJSONSerialization", "JSONObjectWithData"]
+- !private ["CSo8NSLocale", "currentLocale"]
+- !private ["CSo8NSLocale", "objectForKey"]
+- !private ["PSo16NSMutableCopying", "fromCString"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo20NSNotificationCenter", "addObserverForName"]
+- !private ["CSo20NSNotificationCenter", "defaultCenter"]
+- !private ["CSo8NSObject", "JSONObjectWithData"]
+- !private ["CSo8NSObject", "addObserverForName"]
+- !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "currentLocale"]
+- !private ["CSo8NSObject", "dataTaskWithRequest"]
+- !private ["CSo8NSObject", "defaultCenter"]
+- !private ["CSo8NSObject", "fromCString"]
+- !private ["CSo8NSObject", "horizontalSizeClass"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "keyWindow"]
+- !private ["CSo8NSObject", "mainBundle"]
+- !private ["CSo8NSObject", "mainQueue"]
+- !private ["CSo8NSObject", "mainScreen"]
+- !private ["CSo8NSObject", "objectForInfoDictionaryKey"]
+- !private ["CSo8NSObject", "objectForKey"]
+- !private ["CSo8NSObject", "presentedViewController"]
+- !private ["CSo8NSObject", "resume"]
+- !private ["CSo8NSObject", "rootViewController"]
+- !private ["CSo8NSObject", "sharedApplication"]
+- !private ["CSo8NSObject", "sharedSession"]
+- !private ["CSo8NSObject", "statusBarFrame"]
+- !private ["CSo8NSObject", "statusBarOrientation"]
+- !private ["CSo8NSObject", "traitCollection"]
+- !private ["CSo8NSObject", "verticalSizeClass"]
+- !private ["PSo16NSObjectProtocol", "JSONObjectWithData"]
+- !private ["PSo16NSObjectProtocol", "addObserverForName"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "currentLocale"]
+- !private ["PSo16NSObjectProtocol", "dataTaskWithRequest"]
+- !private ["PSo16NSObjectProtocol", "defaultCenter"]
+- !private ["PSo16NSObjectProtocol", "fromCString"]
+- !private ["PSo16NSObjectProtocol", "horizontalSizeClass"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "keyWindow"]
+- !private ["PSo16NSObjectProtocol", "mainBundle"]
+- !private ["PSo16NSObjectProtocol", "mainQueue"]
+- !private ["PSo16NSObjectProtocol", "mainScreen"]
+- !private ["PSo16NSObjectProtocol", "objectForInfoDictionaryKey"]
+- !private ["PSo16NSObjectProtocol", "objectForKey"]
+- !private ["PSo16NSObjectProtocol", "presentedViewController"]
+- !private ["PSo16NSObjectProtocol", "resume"]
+- !private ["PSo16NSObjectProtocol", "rootViewController"]
+- !private ["PSo16NSObjectProtocol", "sharedApplication"]
+- !private ["PSo16NSObjectProtocol", "sharedSession"]
+- !private ["PSo16NSObjectProtocol", "statusBarFrame"]
+- !private ["PSo16NSObjectProtocol", "statusBarOrientation"]
+- !private ["PSo16NSObjectProtocol", "traitCollection"]
+- !private ["PSo16NSObjectProtocol", "verticalSizeClass"]
+- !private ["CSo16NSOperationQueue", "mainQueue"]
+- !private ["PSo14NSSecureCoding", "currentLocale"]
+- !private ["PSo14NSSecureCoding", "fromCString"]
+- !private ["PSo14NSSecureCoding", "horizontalSizeClass"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "objectForKey"]
+- !private ["PSo14NSSecureCoding", "verticalSizeClass"]
+- !private ["CSo8NSString", "fromCString"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo5NSURL", "init"]
+- !private ["CSo12NSURLRequest", "init"]
+- !private ["CSo12NSURLSession", "dataTaskWithRequest"]
+- !private ["CSo12NSURLSession", "sharedSession"]
+- !private ["CSo20NSURLSessionDataTask", "resume"]
+- !private ["CSo16NSURLSessionTask", "resume"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- !private ["Ps13OptionSetType", "AllowFragments"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16OutputStreamType", "fromCString"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps21RandomAccessIndexType", "init"]
+- !private ["Ps30RangeReplaceableCollectionType", "init"]
+- !private ["Ps16RawRepresentable", "AllowFragments"]
+- !private ["Ps16RawRepresentable", "Unspecified"]
+- !private ["Ps12SequenceType", "init"]
+- !private ["Ps14SetAlgebraType", "AllowFragments"]
+- !private ["Ps17SignedIntegerType", "init"]
+- !private ["Ps16SignedNumberType", "init"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["Ps10Streamable", "fromCString"]
+- !private ["Ps10Streamable", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "deinit"]
+- !private ["SS", "fromCString"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "fromCString"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "fromCString"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "rootViewController"]
+- !private ["PSo12UIAppearance", "rootViewController"]
+- !private ["PSo21UIAppearanceContainer", "presentedViewController"]
+- !private ["PSo21UIAppearanceContainer", "rootViewController"]
+- !private ["PSo21UIAppearanceContainer", "traitCollection"]
+- !private ["CSo13UIApplication", "keyWindow"]
+- !private ["CSo13UIApplication", "sharedApplication"]
+- !private ["CSo13UIApplication", "statusBarFrame"]
+- !private ["CSo13UIApplication", "statusBarOrientation"]
+- !private ["PSo18UIContentContainer", "presentedViewController"]
+- !private ["PSo18UIContentContainer", "traitCollection"]
+- !private ["PSo17UICoordinateSpace", "rootViewController"]
+- !private ["PSo13UIDynamicItem", "rootViewController"]
+- !private ["PSo18UIFocusEnvironment", "presentedViewController"]
+- !private ["PSo18UIFocusEnvironment", "rootViewController"]
+- !private ["PSo18UIFocusEnvironment", "traitCollection"]
+- !private ["CSo7UIImage", "init"]
+- !private ["CSo11UIResponder", "keyWindow"]
+- !private ["CSo11UIResponder", "presentedViewController"]
+- !private ["CSo11UIResponder", "rootViewController"]
+- !private ["CSo11UIResponder", "sharedApplication"]
+- !private ["CSo11UIResponder", "statusBarFrame"]
+- !private ["CSo11UIResponder", "statusBarOrientation"]
+- !private ["CSo11UIResponder", "traitCollection"]
+- !private ["CSo8UIScreen", "bounds"]
+- !private ["CSo8UIScreen", "mainScreen"]
+- !private ["PSo16UIStateRestoring", "presentedViewController"]
+- !private ["PSo16UIStateRestoring", "traitCollection"]
+- !private ["CSo17UITraitCollection", "horizontalSizeClass"]
+- !private ["CSo17UITraitCollection", "verticalSizeClass"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- !private ["PSo18UITraitEnvironment", "mainScreen"]
+- !private ["PSo18UITraitEnvironment", "presentedViewController"]
+- !private ["PSo18UITraitEnvironment", "rootViewController"]
+- !private ["PSo18UITraitEnvironment", "traitCollection"]
+- !private ["OSC24UIUserInterfaceSizeClass", "Unspecified"]
+- !private ["CSo6UIView", "rootViewController"]
+- !private ["CSo16UIViewController", "presentedViewController"]
+- !private ["CSo16UIViewController", "traitCollection"]
+- !private ["CSo8UIWindow", "rootViewController"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "fromCString"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["SP", "deinit"]
+- !private ["Ps10_ArrayType", "init"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "fromCString"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "fromCString"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "fromCString"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "fromCString"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps19_CVarArgAlignedType", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps32_FileReferenceLiteralConvertible", "init"]
+- !private ["Ps24_ImageLiteralConvertible", "init"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps22_IntegerArithmeticType", "init"]
+- !private ["Ps12_IntegerType", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "fromCString"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps22_RandomAccessAmbiguity", "init"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "fromCString"]
+- !private ["Ps12_Reflectable", "height"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "rootViewController"]
+- !private ["Ps12_Reflectable", "size"]
+- !private ["Ps12_Reflectable", "width"]
+- !private ["Ps18_SignedIntegerType", "init"]
+- ["V17EZSwiftExtensions2ez", "AnyObject"]
+- ["V17EZSwiftExtensions2ez", "Bool"]
+- !private ["V17EZSwiftExtensions2ez", "CChar"]
+- !private ["V17EZSwiftExtensions2ez", "CFAbsoluteTimeGetCurrent"]
+- !private ["V17EZSwiftExtensions2ez", "CFRunLoopAddTimer"]
+- !private ["V17EZSwiftExtensions2ez", "CFRunLoopGetCurrent"]
+- !private ["V17EZSwiftExtensions2ez", "CFRunLoopTimerCreateWithHandler"]
+- ["V17EZSwiftExtensions2ez", "CGFloat"]
+- !private ["V17EZSwiftExtensions2ez", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
+- !private ["V17EZSwiftExtensions2ez", "DISPATCH_TIME_NOW"]
+- ["V17EZSwiftExtensions2ez", "Double"]
+- !private ["V17EZSwiftExtensions2ez", "Int"]
+- !private ["V17EZSwiftExtensions2ez", "Int64"]
+- !private ["V17EZSwiftExtensions2ez", "NSBundle"]
+- !private ["V17EZSwiftExtensions2ez", "NSData"]
+- !private ["V17EZSwiftExtensions2ez", "NSEC_PER_SEC"]
+- ["V17EZSwiftExtensions2ez", "NSError"]
+- !private ["V17EZSwiftExtensions2ez", "NSJSONReadingOptions"]
+- !private ["V17EZSwiftExtensions2ez", "NSJSONSerialization"]
+- !private ["V17EZSwiftExtensions2ez", "NSLocale"]
+- !private ["V17EZSwiftExtensions2ez", "NSLocaleCountryCode"]
+- !private ["V17EZSwiftExtensions2ez", "NSNotificationCenter"]
+- !private ["V17EZSwiftExtensions2ez", "NSOperationQueue"]
+- ["V17EZSwiftExtensions2ez", "NSTimeInterval"]
+- ["V17EZSwiftExtensions2ez", "NSTimer"]
+- !private ["V17EZSwiftExtensions2ez", "NSURL"]
+- !private ["V17EZSwiftExtensions2ez", "NSURLRequest"]
+- !private ["V17EZSwiftExtensions2ez", "NSURLSession"]
+- ["V17EZSwiftExtensions2ez", "String"]
+- !private ["V17EZSwiftExtensions2ez", "UIApplication"]
+- !private ["V17EZSwiftExtensions2ez", "UIApplicationUserDidTakeScreenshotNotification"]
+- ["V17EZSwiftExtensions2ez", "UIImage"]
+- ["V17EZSwiftExtensions2ez", "UIInterfaceOrientation"]
+- !private ["V17EZSwiftExtensions2ez", "UIInterfaceOrientationIsPortrait"]
+- !private ["V17EZSwiftExtensions2ez", "UIScreen"]
+- ["V17EZSwiftExtensions2ez", "UIUserInterfaceSizeClass"]
+- ["V17EZSwiftExtensions2ez", "UIViewController"]
+- ["V17EZSwiftExtensions2ez", "Void"]
+- ["V17EZSwiftExtensions2ez", "appBuild"]
+- ["V17EZSwiftExtensions2ez", "appDisplayName"]
+- ["V17EZSwiftExtensions2ez", "appVersion"]
+- ["V17EZSwiftExtensions2ez", "appVersionAndBuild"]
+- !private ["V17EZSwiftExtensions2ez", "assertionFailure"]
+- ["V17EZSwiftExtensions2ez", "currentRegion"]
+- !private ["V17EZSwiftExtensions2ez", "dataToJsonDict"]
+- ["V17EZSwiftExtensions2ez", "detectScreenShot"]
+- ["V17EZSwiftExtensions2ez", "deviceVersion"]
+- !private ["V17EZSwiftExtensions2ez", "dispatch_after"]
+- !private ["V17EZSwiftExtensions2ez", "dispatch_async"]
+- ["V17EZSwiftExtensions2ez", "dispatch_block_t"]
+- !private ["V17EZSwiftExtensions2ez", "dispatch_get_global_queue"]
+- !private ["V17EZSwiftExtensions2ez", "dispatch_get_main_queue"]
+- ["V17EZSwiftExtensions2ez", "dispatch_queue_t"]
+- !private ["V17EZSwiftExtensions2ez", "dispatch_time"]
+- ["V17EZSwiftExtensions2ez", "horizontalSizeClass"]
+- ["V17EZSwiftExtensions2ez", "init"]
+- ["V17EZSwiftExtensions2ez", "isDebug"]
+- ["V17EZSwiftExtensions2ez", "isDevice"]
+- ["V17EZSwiftExtensions2ez", "isRelease"]
+- ["V17EZSwiftExtensions2ez", "isSimulator"]
+- !private ["V17EZSwiftExtensions2ez", "kCFAllocatorDefault"]
+- !private ["V17EZSwiftExtensions2ez", "kCFBundleVersionKey"]
+- !private ["V17EZSwiftExtensions2ez", "kCFRunLoopCommonModes"]
+- !private ["V17EZSwiftExtensions2ez", "print"]
+- ["V17EZSwiftExtensions2ez", "requestImage"]
+- ["V17EZSwiftExtensions2ez", "requestJSON"]
+- !private ["V17EZSwiftExtensions2ez", "requestURL"]
+- ["V17EZSwiftExtensions2ez", "runThisAfterDelay"]
+- ["V17EZSwiftExtensions2ez", "runThisEvery"]
+- ["V17EZSwiftExtensions2ez", "runThisInBackground"]
+- ["V17EZSwiftExtensions2ez", "runThisInMainThread"]
+- ["V17EZSwiftExtensions2ez", "screenHeight"]
+- ["V17EZSwiftExtensions2ez", "screenHeightWithoutStatusBar"]
+- ["V17EZSwiftExtensions2ez", "screenOrientation"]
+- ["V17EZSwiftExtensions2ez", "screenStatusBarHeight"]
+- ["V17EZSwiftExtensions2ez", "screenWidth"]
+- !private ["V17EZSwiftExtensions2ez", "sysctlbyname"]
+- ["V17EZSwiftExtensions2ez", "topMostVC"]
+- ["V17EZSwiftExtensions2ez", "verticalSizeClass"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- !private "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "CSo8CFString"
+- !private "VSC6CGRect"
+- !private "VSC6CGSize"
+- !private "Ps11CVarArgType"
+- !private "Vs9Character"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Sd"
+- !private "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps17FloatingPointType"
+- !private "Ps16ForwardIndexType"
+- !private "Ps8Hashable"
+- !private "SQ"
+- !private "Ps9Indexable"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- !private "CSo8NSBundle"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo26NSExtensionRequestHandling"
+- !private "VSC20NSJSONReadingOptions"
+- !private "CSo19NSJSONSerialization"
+- !private "CSo8NSLocale"
+- !private "PSo16NSMutableCopying"
+- !private "CSo20NSNotificationCenter"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "CSo16NSOperationQueue"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo5NSURL"
+- !private "CSo12NSURLRequest"
+- !private "CSo12NSURLSession"
+- !private "CSo20NSURLSessionDataTask"
+- !private "CSo16NSURLSessionTask"
+- "Ps21NilLiteralConvertible"
+- !private "Ps13OptionSetType"
+- "Sq"
+- !private "Ps16OutputStreamType"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps16RawRepresentable"
+- !private "Ps12SequenceType"
+- !private "Ps14SetAlgebraType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Vs12StaticString"
+- !private "Ps10Streamable"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "CSo13UIApplication"
+- !private "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "CSo7UIImage"
+- !private "CSo11UIResponder"
+- !private "CSo8UIScreen"
+- !private "PSo16UIStateRestoring"
+- !private "CSo17UITraitCollection"
+- !private "PSo18UITraitEnvironment"
+- !private "OSC24UIUserInterfaceSizeClass"
+- !private "CSo6UIView"
+- !private "CSo16UIViewController"
+- !private "CSo8UIWindow"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "SP"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps31_BuiltinFloatLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps19_CVarArgAlignedType"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps32_FileReferenceLiteralConvertible"
+- !private "Ps24_ImageLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+- "V17EZSwiftExtensions2ez"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/Natalia/Coding/iOS/Hackathon App/Pods/Target Support Files/EZSwiftExtensions/EZSwiftExtensions-umbrella.h"
+- "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Intermediates/Pods.build/Debug-iphonesimulator/EZSwiftExtensions.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "22b0d1da93ca70ef047842566f988f51"

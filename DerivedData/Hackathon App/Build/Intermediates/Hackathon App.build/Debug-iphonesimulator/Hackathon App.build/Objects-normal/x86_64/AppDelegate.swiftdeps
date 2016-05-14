@@ -6,24 +6,32 @@ provides-nominal:
 provides-member:
 - ["C13Hackathon_App11AppDelegate", ""]
 provides-dynamic-lookup:
-- "application"
-- "applicationDidBecomeActive"
 - "window"
+- "applicationWillEnterForeground"
 - "applicationWillTerminate"
 - "applicationWillResignActive"
-- "applicationWillEnterForeground"
+- "applicationDidBecomeActive"
 - "applicationDidEnterBackground"
+- "application"
+- "application"
 depends-top-level:
 - "NSObject"
-- "UIWindow"
-- "AnyObject"
-- "AppDelegate"
-- "UIResponder"
-- "Bool"
-- "UIApplication"
-- !private "BooleanLiteralType"
 - "UIApplicationDelegate"
+- !private "BooleanLiteralType"
+- !private "FBSDKApplicationDelegate"
+- "UIApplication"
+- "Bool"
+- "String"
+- "AnyObject"
+- "UIResponder"
+- "AppDelegate"
+- "NSURL"
+- !private "FBSDKAppEvents"
+- "UIWindow"
 depends-member:
+- !private ["Ps9AnyObject", "FBSDKAppEvents"]
+- !private ["Ps9AnyObject", "FBSDKApplicationDelegate"]
+- !private ["Ps9AnyObject", "activateApp"]
 - ["Ps9AnyObject", "application"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]
 - ["Ps9AnyObject", "applicationDidEnterBackground"]
@@ -37,11 +45,16 @@ depends-member:
 - ["Ps9AnyObject", "applicationWillResignActive"]
 - ["Ps9AnyObject", "applicationWillTerminate"]
 - ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "sharedInstance"]
 - ["Ps9AnyObject", "window"]
 - ["Ps9AnyObject", ""]
 - ["C13Hackathon_App11AppDelegate", "AnyObject"]
 - ["C13Hackathon_App11AppDelegate", "Bool"]
+- !private ["C13Hackathon_App11AppDelegate", "FBSDKAppEvents"]
+- !private ["C13Hackathon_App11AppDelegate", "FBSDKApplicationDelegate"]
 - ["C13Hackathon_App11AppDelegate", "NSObject"]
+- ["C13Hackathon_App11AppDelegate", "NSURL"]
+- ["C13Hackathon_App11AppDelegate", "String"]
 - ["C13Hackathon_App11AppDelegate", "UIApplication"]
 - ["C13Hackathon_App11AppDelegate", "UIWindow"]
 - ["C13Hackathon_App11AppDelegate", "application"]
@@ -59,6 +72,9 @@ depends-member:
 - ["C13Hackathon_App11AppDelegate", "deinit"]
 - ["C13Hackathon_App11AppDelegate", "init"]
 - ["C13Hackathon_App11AppDelegate", "window"]
+- !private ["Ps11CVarArgType", "FBSDKAppEvents"]
+- !private ["Ps11CVarArgType", "FBSDKApplicationDelegate"]
+- !private ["Ps11CVarArgType", "activateApp"]
 - ["Ps11CVarArgType", "application"]
 - ["Ps11CVarArgType", "applicationDidBecomeActive"]
 - ["Ps11CVarArgType", "applicationDidEnterBackground"]
@@ -72,8 +88,12 @@ depends-member:
 - ["Ps11CVarArgType", "applicationWillResignActive"]
 - ["Ps11CVarArgType", "applicationWillTerminate"]
 - ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "sharedInstance"]
 - ["Ps11CVarArgType", "window"]
 - ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "FBSDKAppEvents"]
+- !private ["Ps28CustomDebugStringConvertible", "FBSDKApplicationDelegate"]
+- !private ["Ps28CustomDebugStringConvertible", "activateApp"]
 - ["Ps28CustomDebugStringConvertible", "application"]
 - ["Ps28CustomDebugStringConvertible", "applicationDidBecomeActive"]
 - ["Ps28CustomDebugStringConvertible", "applicationDidEnterBackground"]
@@ -87,8 +107,12 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "applicationWillResignActive"]
 - ["Ps28CustomDebugStringConvertible", "applicationWillTerminate"]
 - ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedInstance"]
 - ["Ps28CustomDebugStringConvertible", "window"]
 - ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "FBSDKAppEvents"]
+- !private ["Ps23CustomStringConvertible", "FBSDKApplicationDelegate"]
+- !private ["Ps23CustomStringConvertible", "activateApp"]
 - ["Ps23CustomStringConvertible", "application"]
 - ["Ps23CustomStringConvertible", "applicationDidBecomeActive"]
 - ["Ps23CustomStringConvertible", "applicationDidEnterBackground"]
@@ -102,8 +126,12 @@ depends-member:
 - ["Ps23CustomStringConvertible", "applicationWillResignActive"]
 - ["Ps23CustomStringConvertible", "applicationWillTerminate"]
 - ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "sharedInstance"]
 - ["Ps23CustomStringConvertible", "window"]
 - ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "FBSDKAppEvents"]
+- !private ["Ps9Equatable", "FBSDKApplicationDelegate"]
+- !private ["Ps9Equatable", "activateApp"]
 - ["Ps9Equatable", "application"]
 - ["Ps9Equatable", "applicationDidBecomeActive"]
 - ["Ps9Equatable", "applicationDidEnterBackground"]
@@ -117,8 +145,15 @@ depends-member:
 - ["Ps9Equatable", "applicationWillResignActive"]
 - ["Ps9Equatable", "applicationWillTerminate"]
 - ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "sharedInstance"]
 - ["Ps9Equatable", "window"]
 - ["Ps9Equatable", ""]
+- !private ["CSo14FBSDKAppEvents", "activateApp"]
+- !private ["CSo24FBSDKApplicationDelegate", "application"]
+- !private ["CSo24FBSDKApplicationDelegate", "sharedInstance"]
+- !private ["Ps8Hashable", "FBSDKAppEvents"]
+- !private ["Ps8Hashable", "FBSDKApplicationDelegate"]
+- !private ["Ps8Hashable", "activateApp"]
 - ["Ps8Hashable", "application"]
 - ["Ps8Hashable", "applicationDidBecomeActive"]
 - ["Ps8Hashable", "applicationDidEnterBackground"]
@@ -132,13 +167,19 @@ depends-member:
 - ["Ps8Hashable", "applicationWillResignActive"]
 - ["Ps8Hashable", "applicationWillTerminate"]
 - ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "sharedInstance"]
 - ["Ps8Hashable", "window"]
 - ["Ps8Hashable", ""]
 - ["CSo8NSObject", "AnyObject"]
 - ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "FBSDKAppEvents"]
+- !private ["CSo8NSObject", "FBSDKApplicationDelegate"]
 - ["CSo8NSObject", "NSObject"]
+- ["CSo8NSObject", "NSURL"]
+- ["CSo8NSObject", "String"]
 - ["CSo8NSObject", "UIApplication"]
 - ["CSo8NSObject", "UIWindow"]
+- !private ["CSo8NSObject", "activateApp"]
 - ["CSo8NSObject", "application"]
 - ["CSo8NSObject", "applicationDidBecomeActive"]
 - ["CSo8NSObject", "applicationDidEnterBackground"]
@@ -152,7 +193,11 @@ depends-member:
 - ["CSo8NSObject", "applicationWillResignActive"]
 - ["CSo8NSObject", "applicationWillTerminate"]
 - ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "sharedInstance"]
 - ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "FBSDKAppEvents"]
+- !private ["PSo16NSObjectProtocol", "FBSDKApplicationDelegate"]
+- !private ["PSo16NSObjectProtocol", "activateApp"]
 - ["PSo16NSObjectProtocol", "application"]
 - ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
 - ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
@@ -166,8 +211,12 @@ depends-member:
 - ["PSo16NSObjectProtocol", "applicationWillResignActive"]
 - ["PSo16NSObjectProtocol", "applicationWillTerminate"]
 - ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "sharedInstance"]
 - ["PSo16NSObjectProtocol", "window"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+- !private ["PSo21UIApplicationDelegate", "FBSDKAppEvents"]
+- !private ["PSo21UIApplicationDelegate", "FBSDKApplicationDelegate"]
 - ["PSo21UIApplicationDelegate", "application"]
 - ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
 - ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
@@ -184,7 +233,11 @@ depends-member:
 - ["PSo21UIApplicationDelegate", ""]
 - ["CSo11UIResponder", "AnyObject"]
 - ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "FBSDKAppEvents"]
+- !private ["CSo11UIResponder", "FBSDKApplicationDelegate"]
 - ["CSo11UIResponder", "NSObject"]
+- ["CSo11UIResponder", "NSURL"]
+- ["CSo11UIResponder", "String"]
 - ["CSo11UIResponder", "UIApplication"]
 - ["CSo11UIResponder", "UIWindow"]
 - ["CSo11UIResponder", "application"]
@@ -209,14 +262,18 @@ depends-nominal:
 - "Ps28CustomDebugStringConvertible"
 - "Ps23CustomStringConvertible"
 - "Ps9Equatable"
+- !private "CSo14FBSDKAppEvents"
+- !private "CSo24FBSDKApplicationDelegate"
 - "Ps8Hashable"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
+- !private "Sq"
 - "PSo21UIApplicationDelegate"
 - "CSo11UIResponder"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/Natalia/Coding/iOS/Hackathon App/Hackathon App/Hackathon App-Bridging-Header.h"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
@@ -224,4 +281,38 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-interface-hash: "eb6deb7e97b205db2b1f8c4c6c87743c"
+- "./FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "./FBSDKCoreKit.framework/Modules/module.modulemap"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "./FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/Natalia/Coding/iOS/Hackathon App/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "./FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Products/Debug-iphonesimulator/EZSwiftExtensions.framework/Modules/EZSwiftExtensions.swiftmodule/x86_64.swiftmodule"
+- "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Products/Debug-iphonesimulator/EZSwiftExtensions.framework/Headers/EZSwiftExtensions-Swift.h"
+- "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Products/Debug-iphonesimulator/EZSwiftExtensions.framework/Headers/EZSwiftExtensions-umbrella.h"
+- "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Products/Debug-iphonesimulator/EZSwiftExtensions.framework/Modules/module.modulemap"
+interface-hash: "b8262dd805403c0627df6f638cf6fc3a"

@@ -1,0 +1,121 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BlockPinch"
+provides-nominal:
+- "C17EZSwiftExtensions10BlockPinch"
+provides-member:
+- ["C17EZSwiftExtensions10BlockPinch", ""]
+provides-dynamic-lookup:
+- "didPinch"
+depends-top-level:
+- "Selector"
+- "AnyObject"
+- "Void"
+- "BlockPinch"
+- "UIPinchGestureRecognizer"
+depends-member:
+- !private ["Ps9AnyObject", "BlockPinch"]
+- !private ["Ps9AnyObject", "addTarget"]
+- ["Ps9AnyObject", "didPinch"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "pinchAction"]
+- ["Ps9AnyObject", ""]
+- ["C17EZSwiftExtensions10BlockPinch", "AnyObject"]
+- !private ["C17EZSwiftExtensions10BlockPinch", "BlockPinch"]
+- ["C17EZSwiftExtensions10BlockPinch", "Selector"]
+- ["C17EZSwiftExtensions10BlockPinch", "UIPinchGestureRecognizer"]
+- ["C17EZSwiftExtensions10BlockPinch", "Void"]
+- !private ["C17EZSwiftExtensions10BlockPinch", "addTarget"]
+- ["C17EZSwiftExtensions10BlockPinch", "deinit"]
+- ["C17EZSwiftExtensions10BlockPinch", "didPinch"]
+- ["C17EZSwiftExtensions10BlockPinch", "init"]
+- !private ["C17EZSwiftExtensions10BlockPinch", "pinchAction"]
+- !private ["Ps11CVarArgType", "BlockPinch"]
+- !private ["Ps11CVarArgType", "addTarget"]
+- ["Ps11CVarArgType", "didPinch"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "pinchAction"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "BlockPinch"]
+- !private ["Ps28CustomDebugStringConvertible", "addTarget"]
+- ["Ps28CustomDebugStringConvertible", "didPinch"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "pinchAction"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "BlockPinch"]
+- !private ["Ps23CustomStringConvertible", "addTarget"]
+- ["Ps23CustomStringConvertible", "didPinch"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "pinchAction"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "BlockPinch"]
+- !private ["Ps9Equatable", "addTarget"]
+- ["Ps9Equatable", "didPinch"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "pinchAction"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "BlockPinch"]
+- !private ["Ps8Hashable", "addTarget"]
+- ["Ps8Hashable", "didPinch"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "pinchAction"]
+- ["Ps8Hashable", ""]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "BlockPinch"]
+- ["CSo8NSObject", "Selector"]
+- ["CSo8NSObject", "UIPinchGestureRecognizer"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addTarget"]
+- ["CSo8NSObject", "didPinch"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "pinchAction"]
+- !private ["PSo16NSObjectProtocol", "BlockPinch"]
+- !private ["PSo16NSObjectProtocol", "addTarget"]
+- ["PSo16NSObjectProtocol", "didPinch"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "pinchAction"]
+- ["PSo16NSObjectProtocol", ""]
+- ["CSo19UIGestureRecognizer", "AnyObject"]
+- !private ["CSo19UIGestureRecognizer", "BlockPinch"]
+- ["CSo19UIGestureRecognizer", "Selector"]
+- ["CSo19UIGestureRecognizer", "UIPinchGestureRecognizer"]
+- ["CSo19UIGestureRecognizer", "Void"]
+- !private ["CSo19UIGestureRecognizer", "addTarget"]
+- ["CSo19UIGestureRecognizer", "didPinch"]
+- ["CSo19UIGestureRecognizer", "init"]
+- ["CSo19UIGestureRecognizer", "pinchAction"]
+- ["CSo24UIPinchGestureRecognizer", "AnyObject"]
+- !private ["CSo24UIPinchGestureRecognizer", "BlockPinch"]
+- ["CSo24UIPinchGestureRecognizer", "Selector"]
+- ["CSo24UIPinchGestureRecognizer", "UIPinchGestureRecognizer"]
+- ["CSo24UIPinchGestureRecognizer", "Void"]
+- !private ["CSo24UIPinchGestureRecognizer", "addTarget"]
+- ["CSo24UIPinchGestureRecognizer", "didPinch"]
+- ["CSo24UIPinchGestureRecognizer", "init"]
+- ["CSo24UIPinchGestureRecognizer", "pinchAction"]
+- ["CSo24UIPinchGestureRecognizer", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "C17EZSwiftExtensions10BlockPinch"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "CSo19UIGestureRecognizer"
+- "CSo24UIPinchGestureRecognizer"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/Natalia/Coding/iOS/Hackathon App/Pods/Target Support Files/EZSwiftExtensions/EZSwiftExtensions-umbrella.h"
+- "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Intermediates/Pods.build/Debug-iphonesimulator/EZSwiftExtensions.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "d3798782ff916c5ccc97b326b7d9aa7d"
