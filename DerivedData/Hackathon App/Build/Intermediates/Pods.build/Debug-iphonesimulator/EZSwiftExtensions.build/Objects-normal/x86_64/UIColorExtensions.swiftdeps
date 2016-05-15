@@ -1,0 +1,377 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo7UIColor", ""]
+- ["CSo7UIColor", "init"]
+- ["CSo7UIColor", "init"]
+- ["CSo7UIColor", "init"]
+- ["CSo7UIColor", "redComponent"]
+- ["CSo7UIColor", "greenComponent"]
+- ["CSo7UIColor", "blueComponent"]
+- ["CSo7UIColor", "alpha"]
+- ["CSo7UIColor", "randomColor"]
+provides-dynamic-lookup:
+- "randomColor"
+- "alpha"
+- "greenComponent"
+- "blueComponent"
+- "redComponent"
+depends-top-level:
+- "UIColor"
+- !private "arc4random"
+- "Int"
+- !private "/"
+- !private "Float"
+- !private "UINT32_MAX"
+- !private "StringLiteralType"
+- "String"
+- !private "&"
+- !private "+"
+- "CGFloat"
+- !private "-"
+- !private "UnicodeScalarType"
+- "Bool"
+- !private "*"
+- !private ">>"
+- "BooleanLiteralType"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "CGFloat"]
+- !private ["Ps16AbsoluteValuable", "Float"]
+- !private ["Ps16AbsoluteValuable", "UINT32_MAX"]
+- !private ["Ps16AbsoluteValuable", "arc4random"]
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps16AbsoluteValuable", "random"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "Int"]
+- !private ["Ps9AnyObject", "UIColor"]
+- ["Ps9AnyObject", "alpha"]
+- ["Ps9AnyObject", "blueComponent"]
+- !private ["Ps9AnyObject", "getRed"]
+- ["Ps9AnyObject", "greenComponent"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "randomColor"]
+- ["Ps9AnyObject", "redComponent"]
+- !private ["Ps9AnyObject", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps22BidirectionalIndexType", "init"]
+- !private ["Ps21BitwiseOperationsType", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "CGFloat"]
+- !private ["V12CoreGraphics7CGFloat", "Float"]
+- !private ["V12CoreGraphics7CGFloat", "UINT32_MAX"]
+- !private ["V12CoreGraphics7CGFloat", "arc4random"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["V12CoreGraphics7CGFloat", "random"]
+- !private ["Ps11CVarArgType", "CGFloat"]
+- !private ["Ps11CVarArgType", "Float"]
+- !private ["Ps11CVarArgType", "Int"]
+- !private ["Ps11CVarArgType", "UIColor"]
+- !private ["Ps11CVarArgType", "UINT32_MAX"]
+- ["Ps11CVarArgType", "alpha"]
+- !private ["Ps11CVarArgType", "arc4random"]
+- ["Ps11CVarArgType", "blueComponent"]
+- !private ["Ps11CVarArgType", "getRed"]
+- ["Ps11CVarArgType", "greenComponent"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "random"]
+- ["Ps11CVarArgType", "randomColor"]
+- ["Ps11CVarArgType", "redComponent"]
+- !private ["Ps11CVarArgType", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps10Comparable", "CGFloat"]
+- !private ["Ps10Comparable", "Float"]
+- !private ["Ps10Comparable", "UINT32_MAX"]
+- !private ["Ps10Comparable", "arc4random"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "random"]
+- !private ["Ps10Comparable", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- !private ["Ps28CustomDebugStringConvertible", "Int"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- ["Ps28CustomDebugStringConvertible", "alpha"]
+- ["Ps28CustomDebugStringConvertible", "blueComponent"]
+- !private ["Ps28CustomDebugStringConvertible", "getRed"]
+- ["Ps28CustomDebugStringConvertible", "greenComponent"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "randomColor"]
+- ["Ps28CustomDebugStringConvertible", "redComponent"]
+- !private ["Ps28CustomDebugStringConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps23CustomStringConvertible", "CGFloat"]
+- !private ["Ps23CustomStringConvertible", "Float"]
+- !private ["Ps23CustomStringConvertible", "Int"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "UINT32_MAX"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "alpha"]
+- !private ["Ps23CustomStringConvertible", "arc4random"]
+- ["Ps23CustomStringConvertible", "blueComponent"]
+- !private ["Ps23CustomStringConvertible", "getRed"]
+- ["Ps23CustomStringConvertible", "greenComponent"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "random"]
+- ["Ps23CustomStringConvertible", "randomColor"]
+- ["Ps23CustomStringConvertible", "redComponent"]
+- !private ["Ps23CustomStringConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "CGFloat"]
+- !private ["Ps9Equatable", "Float"]
+- !private ["Ps9Equatable", "Int"]
+- !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "UINT32_MAX"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "alpha"]
+- !private ["Ps9Equatable", "arc4random"]
+- ["Ps9Equatable", "blueComponent"]
+- !private ["Ps9Equatable", "getRed"]
+- ["Ps9Equatable", "greenComponent"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "random"]
+- ["Ps9Equatable", "randomColor"]
+- ["Ps9Equatable", "redComponent"]
+- !private ["Ps9Equatable", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["Sf", "deinit"]
+- !private ["Sf", "init"]
+- !private ["Ps23FloatLiteralConvertible", "CGFloat"]
+- !private ["Ps23FloatLiteralConvertible", "Float"]
+- !private ["Ps23FloatLiteralConvertible", "UINT32_MAX"]
+- !private ["Ps23FloatLiteralConvertible", "arc4random"]
+- !private ["Ps23FloatLiteralConvertible", "init"]
+- !private ["Ps23FloatLiteralConvertible", "random"]
+- !private ["Ps17FloatingPointType", "CGFloat"]
+- !private ["Ps17FloatingPointType", "Float"]
+- !private ["Ps17FloatingPointType", "UINT32_MAX"]
+- !private ["Ps17FloatingPointType", "arc4random"]
+- !private ["Ps17FloatingPointType", "init"]
+- !private ["Ps17FloatingPointType", "random"]
+- !private ["Ps16ForwardIndexType", "init"]
+- !private ["Ps8Hashable", "CGFloat"]
+- !private ["Ps8Hashable", "Float"]
+- !private ["Ps8Hashable", "Int"]
+- !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "UINT32_MAX"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "alpha"]
+- !private ["Ps8Hashable", "arc4random"]
+- ["Ps8Hashable", "blueComponent"]
+- !private ["Ps8Hashable", "getRed"]
+- ["Ps8Hashable", "greenComponent"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "random"]
+- ["Ps8Hashable", "randomColor"]
+- ["Ps8Hashable", "redComponent"]
+- !private ["Ps8Hashable", "stringByReplacingOccurrencesOfString"]
+- !private ["Si", "init"]
+- !private ["Ps21IntegerArithmeticType", "init"]
+- !private ["Ps25IntegerLiteralConvertible", "CGFloat"]
+- !private ["Ps25IntegerLiteralConvertible", "Float"]
+- !private ["Ps25IntegerLiteralConvertible", "UINT32_MAX"]
+- !private ["Ps25IntegerLiteralConvertible", "arc4random"]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["Ps25IntegerLiteralConvertible", "random"]
+- !private ["Ps11IntegerType", "init"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["Ps14MirrorPathType", "stringByReplacingOccurrencesOfString"]
+- !private ["PSo8NSCoding", "CGFloat"]
+- !private ["PSo8NSCoding", "Int"]
+- !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "getRed"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "stringByReplacingOccurrencesOfString"]
+- !private ["PSo9NSCopying", "CGFloat"]
+- !private ["PSo9NSCopying", "Int"]
+- !private ["PSo9NSCopying", "UIColor"]
+- !private ["PSo9NSCopying", "getRed"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "stringByReplacingOccurrencesOfString"]
+- !private ["PSo16NSMutableCopying", "stringByReplacingOccurrencesOfString"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIColor"]
+- ["CSo8NSObject", "alpha"]
+- ["CSo8NSObject", "blueComponent"]
+- !private ["CSo8NSObject", "getRed"]
+- ["CSo8NSObject", "greenComponent"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "randomColor"]
+- ["CSo8NSObject", "redComponent"]
+- !private ["CSo8NSObject", "stringByReplacingOccurrencesOfString"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "Int"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- ["PSo16NSObjectProtocol", "alpha"]
+- ["PSo16NSObjectProtocol", "blueComponent"]
+- !private ["PSo16NSObjectProtocol", "getRed"]
+- ["PSo16NSObjectProtocol", "greenComponent"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "randomColor"]
+- ["PSo16NSObjectProtocol", "redComponent"]
+- !private ["PSo16NSObjectProtocol", "stringByReplacingOccurrencesOfString"]
+- !private ["PSo14NSSecureCoding", "CGFloat"]
+- !private ["PSo14NSSecureCoding", "Int"]
+- !private ["PSo14NSSecureCoding", "UIColor"]
+- !private ["PSo14NSSecureCoding", "getRed"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "stringByReplacingOccurrencesOfString"]
+- !private ["CSo8NSString", "stringByReplacingOccurrencesOfString"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Ps16OutputStreamType", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps21RandomAccessIndexType", "init"]
+- !private ["Ps17SignedIntegerType", "init"]
+- !private ["Ps16SignedNumberType", "CGFloat"]
+- !private ["Ps16SignedNumberType", "Float"]
+- !private ["Ps16SignedNumberType", "UINT32_MAX"]
+- !private ["Ps16SignedNumberType", "arc4random"]
+- !private ["Ps16SignedNumberType", "init"]
+- !private ["Ps16SignedNumberType", "random"]
+- !private ["Ps10Streamable", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps10Strideable", "CGFloat"]
+- !private ["Ps10Strideable", "Float"]
+- !private ["Ps10Strideable", "UINT32_MAX"]
+- !private ["Ps10Strideable", "arc4random"]
+- !private ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "random"]
+- !private ["SS", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps30StringInterpolationConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps24StringLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- ["CSo7UIColor", "Bool"]
+- ["CSo7UIColor", "CGFloat"]
+- ["CSo7UIColor", "Int"]
+- ["CSo7UIColor", "String"]
+- ["CSo7UIColor", "UIColor"]
+- ["CSo7UIColor", "alpha"]
+- ["CSo7UIColor", "blueComponent"]
+- !private ["CSo7UIColor", "getRed"]
+- ["CSo7UIColor", "greenComponent"]
+- ["CSo7UIColor", "init"]
+- ["CSo7UIColor", "randomColor"]
+- ["CSo7UIColor", "redComponent"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps19_CVarArgAlignedType", "CGFloat"]
+- !private ["Ps19_CVarArgAlignedType", "Float"]
+- !private ["Ps19_CVarArgAlignedType", "UINT32_MAX"]
+- !private ["Ps19_CVarArgAlignedType", "arc4random"]
+- !private ["Ps19_CVarArgAlignedType", "init"]
+- !private ["Ps19_CVarArgAlignedType", "random"]
+- !private ["Ps22_CVarArgPassedAsDouble", "CGFloat"]
+- !private ["Ps22_CVarArgPassedAsDouble", "Float"]
+- !private ["Ps22_CVarArgPassedAsDouble", "UINT32_MAX"]
+- !private ["Ps22_CVarArgPassedAsDouble", "arc4random"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "random"]
+- !private ["Ps24_ColorLiteralConvertible", "CGFloat"]
+- !private ["Ps24_ColorLiteralConvertible", "Int"]
+- !private ["Ps24_ColorLiteralConvertible", "UIColor"]
+- !private ["Ps24_ColorLiteralConvertible", "getRed"]
+- !private ["Ps24_ColorLiteralConvertible", "init"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps22_IntegerArithmeticType", "init"]
+- !private ["Ps12_IntegerType", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "CGFloat"]
+- !private ["Ps21_ObjectiveCBridgeable", "Float"]
+- !private ["Ps21_ObjectiveCBridgeable", "UINT32_MAX"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "arc4random"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "random"]
+- !private ["Ps21_ObjectiveCBridgeable", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps22_RandomAccessAmbiguity", "init"]
+- !private ["Ps12_Reflectable", "CGFloat"]
+- !private ["Ps12_Reflectable", "Float"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "UINT32_MAX"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "arc4random"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "random"]
+- !private ["Ps12_Reflectable", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps18_SignedIntegerType", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- "Ps11CVarArgType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps17FloatingPointType"
+- !private "Ps16ForwardIndexType"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "Ps16OutputStreamType"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Streamable"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- "CSo7UIColor"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps31_BuiltinFloatLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps19_CVarArgAlignedType"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_ColorLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/Natalia/Coding/iOS/Hackathon App/Pods/Target Support Files/EZSwiftExtensions/EZSwiftExtensions-umbrella.h"
+- "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Intermediates/Pods.build/Debug-iphonesimulator/EZSwiftExtensions.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "dc924bd155c34388d9e17d5722234c01"

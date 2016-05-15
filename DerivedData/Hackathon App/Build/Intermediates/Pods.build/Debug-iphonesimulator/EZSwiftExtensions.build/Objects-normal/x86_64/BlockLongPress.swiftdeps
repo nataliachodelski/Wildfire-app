@@ -1,0 +1,170 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BlockLongPress"
+provides-nominal:
+- "C17EZSwiftExtensions14BlockLongPress"
+provides-member:
+- ["C17EZSwiftExtensions14BlockLongPress", ""]
+provides-dynamic-lookup:
+- "didLongPressed"
+depends-top-level:
+- !private "UIGestureRecognizerState"
+- "BlockLongPress"
+- !private "=="
+- "Void"
+- "UILongPressGestureRecognizer"
+- "Selector"
+- "AnyObject"
+depends-member:
+- !private ["Ps9AnyObject", "BlockLongPress"]
+- !private ["Ps9AnyObject", "UIGestureRecognizerState"]
+- !private ["Ps9AnyObject", "addTarget"]
+- ["Ps9AnyObject", "didLongPressed"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "longPressAction"]
+- !private ["Ps9AnyObject", "state"]
+- ["Ps9AnyObject", ""]
+- ["C17EZSwiftExtensions14BlockLongPress", "AnyObject"]
+- !private ["C17EZSwiftExtensions14BlockLongPress", "BlockLongPress"]
+- ["C17EZSwiftExtensions14BlockLongPress", "Selector"]
+- !private ["C17EZSwiftExtensions14BlockLongPress", "UIGestureRecognizerState"]
+- ["C17EZSwiftExtensions14BlockLongPress", "UILongPressGestureRecognizer"]
+- ["C17EZSwiftExtensions14BlockLongPress", "Void"]
+- !private ["C17EZSwiftExtensions14BlockLongPress", "addTarget"]
+- ["C17EZSwiftExtensions14BlockLongPress", "deinit"]
+- ["C17EZSwiftExtensions14BlockLongPress", "didLongPressed"]
+- ["C17EZSwiftExtensions14BlockLongPress", "init"]
+- !private ["C17EZSwiftExtensions14BlockLongPress", "longPressAction"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "BlockLongPress"]
+- !private ["Ps11CVarArgType", "UIGestureRecognizerState"]
+- !private ["Ps11CVarArgType", "addTarget"]
+- ["Ps11CVarArgType", "didLongPressed"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "longPressAction"]
+- !private ["Ps11CVarArgType", "state"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "BlockLongPress"]
+- !private ["Ps28CustomDebugStringConvertible", "UIGestureRecognizerState"]
+- !private ["Ps28CustomDebugStringConvertible", "addTarget"]
+- ["Ps28CustomDebugStringConvertible", "didLongPressed"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "longPressAction"]
+- !private ["Ps28CustomDebugStringConvertible", "state"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "BlockLongPress"]
+- !private ["Ps23CustomStringConvertible", "UIGestureRecognizerState"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addTarget"]
+- ["Ps23CustomStringConvertible", "didLongPressed"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "longPressAction"]
+- !private ["Ps23CustomStringConvertible", "state"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "Began"]
+- !private ["Ps9Equatable", "BlockLongPress"]
+- !private ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "UIGestureRecognizerState"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addTarget"]
+- ["Ps9Equatable", "didLongPressed"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "longPressAction"]
+- !private ["Ps9Equatable", "state"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "Began"]
+- !private ["Ps8Hashable", "BlockLongPress"]
+- !private ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "UIGestureRecognizerState"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addTarget"]
+- ["Ps8Hashable", "didLongPressed"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "longPressAction"]
+- !private ["Ps8Hashable", "state"]
+- ["Ps8Hashable", ""]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "BlockLongPress"]
+- ["CSo8NSObject", "Selector"]
+- !private ["CSo8NSObject", "UIGestureRecognizerState"]
+- ["CSo8NSObject", "UILongPressGestureRecognizer"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addTarget"]
+- ["CSo8NSObject", "didLongPressed"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "longPressAction"]
+- !private ["CSo8NSObject", "state"]
+- !private ["PSo16NSObjectProtocol", "BlockLongPress"]
+- !private ["PSo16NSObjectProtocol", "UIGestureRecognizerState"]
+- !private ["PSo16NSObjectProtocol", "addTarget"]
+- ["PSo16NSObjectProtocol", "didLongPressed"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "longPressAction"]
+- !private ["PSo16NSObjectProtocol", "state"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Ps16RawRepresentable", "Began"]
+- !private ["Ps16RawRepresentable", "RawValue"]
+- ["CSo19UIGestureRecognizer", "AnyObject"]
+- !private ["CSo19UIGestureRecognizer", "BlockLongPress"]
+- ["CSo19UIGestureRecognizer", "Selector"]
+- !private ["CSo19UIGestureRecognizer", "UIGestureRecognizerState"]
+- ["CSo19UIGestureRecognizer", "UILongPressGestureRecognizer"]
+- ["CSo19UIGestureRecognizer", "Void"]
+- !private ["CSo19UIGestureRecognizer", "addTarget"]
+- ["CSo19UIGestureRecognizer", "didLongPressed"]
+- ["CSo19UIGestureRecognizer", "init"]
+- ["CSo19UIGestureRecognizer", "longPressAction"]
+- !private ["CSo19UIGestureRecognizer", "state"]
+- !private ["OSC24UIGestureRecognizerState", "Began"]
+- !private ["OSC24UIGestureRecognizerState", "RawValue"]
+- !private ["OSC24UIGestureRecognizerState", "deinit"]
+- ["CSo28UILongPressGestureRecognizer", "AnyObject"]
+- !private ["CSo28UILongPressGestureRecognizer", "BlockLongPress"]
+- ["CSo28UILongPressGestureRecognizer", "Selector"]
+- !private ["CSo28UILongPressGestureRecognizer", "UIGestureRecognizerState"]
+- ["CSo28UILongPressGestureRecognizer", "UILongPressGestureRecognizer"]
+- ["CSo28UILongPressGestureRecognizer", "Void"]
+- !private ["CSo28UILongPressGestureRecognizer", "addTarget"]
+- ["CSo28UILongPressGestureRecognizer", "didLongPressed"]
+- ["CSo28UILongPressGestureRecognizer", "init"]
+- ["CSo28UILongPressGestureRecognizer", "longPressAction"]
+- !private ["CSo28UILongPressGestureRecognizer", "state"]
+- ["CSo28UILongPressGestureRecognizer", ""]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C17EZSwiftExtensions14BlockLongPress"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Ps16RawRepresentable"
+- "CSo19UIGestureRecognizer"
+- !private "OSC24UIGestureRecognizerState"
+- "CSo28UILongPressGestureRecognizer"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/Natalia/Coding/iOS/Hackathon App/Pods/Target Support Files/EZSwiftExtensions/EZSwiftExtensions-umbrella.h"
+- "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Intermediates/Pods.build/Debug-iphonesimulator/EZSwiftExtensions.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "0dd5825553c843ad3cda454cb5f62cde"

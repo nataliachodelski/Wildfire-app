@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "f1aac504d3af0253072dfb8d9265d29d"
+build_time: [516583637, 387344000]
+inputs:
+  "/Users/Natalia/Coding/iOS/Hackathon App/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [516565513, 0]

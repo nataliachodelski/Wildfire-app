@@ -1,0 +1,153 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BlockSwipe"
+provides-nominal:
+- "C17EZSwiftExtensions10BlockSwipe"
+provides-member:
+- ["C17EZSwiftExtensions10BlockSwipe", ""]
+provides-dynamic-lookup:
+- "didSwipe"
+depends-top-level:
+- "Selector"
+- "UISwipeGestureRecognizerDirection"
+- "UISwipeGestureRecognizer"
+- "BlockSwipe"
+- "Void"
+- "AnyObject"
+- "Int"
+depends-member:
+- !private ["Ps9AnyObject", "BlockSwipe"]
+- !private ["Ps9AnyObject", "addTarget"]
+- ["Ps9AnyObject", "didSwipe"]
+- !private ["Ps9AnyObject", "direction"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "numberOfTouchesRequired"]
+- ["Ps9AnyObject", "swipeAction"]
+- ["Ps9AnyObject", ""]
+- ["C17EZSwiftExtensions10BlockSwipe", "AnyObject"]
+- !private ["C17EZSwiftExtensions10BlockSwipe", "BlockSwipe"]
+- ["C17EZSwiftExtensions10BlockSwipe", "Int"]
+- ["C17EZSwiftExtensions10BlockSwipe", "Selector"]
+- ["C17EZSwiftExtensions10BlockSwipe", "UISwipeGestureRecognizer"]
+- ["C17EZSwiftExtensions10BlockSwipe", "UISwipeGestureRecognizerDirection"]
+- ["C17EZSwiftExtensions10BlockSwipe", "Void"]
+- !private ["C17EZSwiftExtensions10BlockSwipe", "addTarget"]
+- ["C17EZSwiftExtensions10BlockSwipe", "deinit"]
+- ["C17EZSwiftExtensions10BlockSwipe", "didSwipe"]
+- !private ["C17EZSwiftExtensions10BlockSwipe", "direction"]
+- ["C17EZSwiftExtensions10BlockSwipe", "init"]
+- !private ["C17EZSwiftExtensions10BlockSwipe", "numberOfTouchesRequired"]
+- !private ["C17EZSwiftExtensions10BlockSwipe", "swipeAction"]
+- !private ["Ps11CVarArgType", "BlockSwipe"]
+- !private ["Ps11CVarArgType", "addTarget"]
+- ["Ps11CVarArgType", "didSwipe"]
+- !private ["Ps11CVarArgType", "direction"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "numberOfTouchesRequired"]
+- ["Ps11CVarArgType", "swipeAction"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "BlockSwipe"]
+- !private ["Ps28CustomDebugStringConvertible", "addTarget"]
+- ["Ps28CustomDebugStringConvertible", "didSwipe"]
+- !private ["Ps28CustomDebugStringConvertible", "direction"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "numberOfTouchesRequired"]
+- ["Ps28CustomDebugStringConvertible", "swipeAction"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "BlockSwipe"]
+- !private ["Ps23CustomStringConvertible", "addTarget"]
+- ["Ps23CustomStringConvertible", "didSwipe"]
+- !private ["Ps23CustomStringConvertible", "direction"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "numberOfTouchesRequired"]
+- ["Ps23CustomStringConvertible", "swipeAction"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "BlockSwipe"]
+- !private ["Ps9Equatable", "addTarget"]
+- ["Ps9Equatable", "didSwipe"]
+- !private ["Ps9Equatable", "direction"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "numberOfTouchesRequired"]
+- ["Ps9Equatable", "swipeAction"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "BlockSwipe"]
+- !private ["Ps8Hashable", "addTarget"]
+- ["Ps8Hashable", "didSwipe"]
+- !private ["Ps8Hashable", "direction"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "numberOfTouchesRequired"]
+- ["Ps8Hashable", "swipeAction"]
+- ["Ps8Hashable", ""]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "BlockSwipe"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "Selector"]
+- ["CSo8NSObject", "UISwipeGestureRecognizer"]
+- ["CSo8NSObject", "UISwipeGestureRecognizerDirection"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addTarget"]
+- ["CSo8NSObject", "didSwipe"]
+- !private ["CSo8NSObject", "direction"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "numberOfTouchesRequired"]
+- ["CSo8NSObject", "swipeAction"]
+- !private ["PSo16NSObjectProtocol", "BlockSwipe"]
+- !private ["PSo16NSObjectProtocol", "addTarget"]
+- ["PSo16NSObjectProtocol", "didSwipe"]
+- !private ["PSo16NSObjectProtocol", "direction"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "numberOfTouchesRequired"]
+- ["PSo16NSObjectProtocol", "swipeAction"]
+- ["PSo16NSObjectProtocol", ""]
+- ["CSo19UIGestureRecognizer", "AnyObject"]
+- !private ["CSo19UIGestureRecognizer", "BlockSwipe"]
+- ["CSo19UIGestureRecognizer", "Int"]
+- ["CSo19UIGestureRecognizer", "Selector"]
+- ["CSo19UIGestureRecognizer", "UISwipeGestureRecognizer"]
+- ["CSo19UIGestureRecognizer", "UISwipeGestureRecognizerDirection"]
+- ["CSo19UIGestureRecognizer", "Void"]
+- !private ["CSo19UIGestureRecognizer", "addTarget"]
+- ["CSo19UIGestureRecognizer", "didSwipe"]
+- !private ["CSo19UIGestureRecognizer", "direction"]
+- ["CSo19UIGestureRecognizer", "init"]
+- !private ["CSo19UIGestureRecognizer", "numberOfTouchesRequired"]
+- ["CSo19UIGestureRecognizer", "swipeAction"]
+- ["CSo24UISwipeGestureRecognizer", "AnyObject"]
+- !private ["CSo24UISwipeGestureRecognizer", "BlockSwipe"]
+- ["CSo24UISwipeGestureRecognizer", "Int"]
+- ["CSo24UISwipeGestureRecognizer", "Selector"]
+- ["CSo24UISwipeGestureRecognizer", "UISwipeGestureRecognizer"]
+- ["CSo24UISwipeGestureRecognizer", "UISwipeGestureRecognizerDirection"]
+- ["CSo24UISwipeGestureRecognizer", "Void"]
+- !private ["CSo24UISwipeGestureRecognizer", "addTarget"]
+- ["CSo24UISwipeGestureRecognizer", "didSwipe"]
+- !private ["CSo24UISwipeGestureRecognizer", "direction"]
+- ["CSo24UISwipeGestureRecognizer", "init"]
+- !private ["CSo24UISwipeGestureRecognizer", "numberOfTouchesRequired"]
+- ["CSo24UISwipeGestureRecognizer", "swipeAction"]
+- ["CSo24UISwipeGestureRecognizer", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "C17EZSwiftExtensions10BlockSwipe"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "CSo19UIGestureRecognizer"
+- "CSo24UISwipeGestureRecognizer"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/Natalia/Coding/iOS/Hackathon App/Pods/Target Support Files/EZSwiftExtensions/EZSwiftExtensions-umbrella.h"
+- "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Intermediates/Pods.build/Debug-iphonesimulator/EZSwiftExtensions.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "d9d781109d206937065192aa95ff94c4"
