@@ -11,34 +11,21 @@ import SwiftyJSON
 
 class ProjectListTableViewController: UITableViewController {
     
+    let dataModel = DataModel()
+    
     var jsonFileName : String = "projects"
-    var json : JSON!
-    
-    
-    // event details
     var eventCount : Int = 0
-    var organizationName  = [String]()
-    var eventType = [String]()
-    var eventLocation = [String]()
-    var eventDetail = [String]()
-    var eventImpact = [String]()
     
     var demoImages : [UIImage] = []
-    
-    
-    var orgStrings : [String] = ["Association for Aid and Relief, Japan", "Cruz Roja Ecuador", "CARE"]
-    var eventTypes : [String] = ["Earthquake", "Earthquake", "Civil War/Refugee Crisis"]
-    var locationStrings : [String] = ["Kumamoto, Japan", "Ecuador, Peru", "Syria and Europe"]
+    let demoImg1 = UIImage(named: "demoEcuador")
+    let demoImg2 = UIImage(named: "demoJapan")
+    let demoImg3 = UIImage(named: "demoSyria")
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.tableView.rowHeight = 160
-        
-        let demoImg1 = UIImage(named: "demoEcuador")
-        let demoImg2 = UIImage(named: "demoJapan")
-        let demoImg3 = UIImage(named: "demoSyria")
         
         demoImages = [demoImg1!, demoImg2!, demoImg3!]
         
@@ -50,7 +37,6 @@ class ProjectListTableViewController: UITableViewController {
         
         if let path = NSBundle.mainBundle().pathForResource(fileName, ofType: "json")
         {
-            
             do {
                 let data = try NSData(contentsOfURL: NSURL(fileURLWithPath: path), options: NSDataReadingOptions.DataReadingMappedIfSafe)
                 json = JSON(data: data)
@@ -72,31 +58,38 @@ class ProjectListTableViewController: UITableViewController {
         for key in json
         {
             eventCount += 1
+            print("[Outer] object key is \(key.0)")
+            
+            let projectObj = ProjectObject()
             
             // iterate through each root object and extract needed info via keys in the subjson
             for innerKey in key.1
             {
                 switch (innerKey.0) {
                 case "org":
-                    organizationName.append(innerKey.1.stringValue)
+                    projectObj.orgName = innerKey.1.stringValue
+                    
                 case "location":
-                    eventLocation.append(innerKey.1.stringValue)
+                    projectObj.eventLocation = innerKey.1.stringValue
+                    
                 case "event":
-                    eventType.append(innerKey.1.stringValue)
+                    projectObj.eventType = innerKey.1.stringValue
+                    
                 case "detail":
-                    eventDetail.append(innerKey.1.stringValue)
+                    projectObj.eventDescription = innerKey.1.stringValue
+                    
                 case "impact":
-                    eventImpact.append(innerKey.1.stringValue)
+                    projectObj.eventImpact = innerKey.1.stringValue
+                    
                 default:
                     break;
                 }
             }
+            
+            projectObj.image = demoImages[eventCount - 1]
+            
+            dataModel.currentEvents.append(projectObj)
         }
-            print("Org Name List: \(organizationName)")
-            print("Event Types Ljst: \(eventType)")
-            print("Event Locations List: \(eventLocation)")
-            print("Event details: \(eventDetail)")
-            print("Event impacts List: \(eventImpact)")
     }
     
     override func didReceiveMemoryWarning() {
@@ -118,20 +111,17 @@ class ProjectListTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCellWithIdentifier("projectListCell", forIndexPath: indexPath) as! ProjectListCell
         let row = indexPath.row
         
-        cell.projectOrgName.text = organizationName[row]
-        cell.projectEventType.text = eventType[row]
-        cell.projectLocation.text = eventLocation[row]
-        cell.projectImage.image = demoImages[row]
-        
-        cell.projectName.font = UIFont(name: "AvenierNext", size: 24)
-        cell.projectDescription.font =  UIFont(name: "AvenierNext", size: 19)
-        cell.projectLocation.font = UIFont(name: "AvenierNext", size: 20)
+        let currentProj = dataModel.currentEvents[row]
+        cell.projectOrgName.text = currentProj.orgName
+        cell.projectEventType.text = currentProj.eventType
+        cell.projectLocation.text = currentProj.eventLocation
+        cell.projectImage.image = currentProj.image
         
         return cell
     }
     
     
-      /*
+    /*
      // Override to support rearranging the table view.
      override func tableView(tableView: UITableView, moveRowAtIndexPath fromIndexPath: NSIndexPath, toIndexPath: NSIndexPath) {
      
