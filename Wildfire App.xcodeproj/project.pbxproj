@@ -9,44 +9,43 @@
 /* Begin PBXBuildFile section */
 		CC5782FA2C46E40FB07FF6D5 /* Pods_Hackathon_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8740729504D1542B200E3350 /* Pods_Hackathon_App.framework */; };
 		E11CE1281CE792E40056B6C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11CE1271CE792E40056B6C9 /* AppDelegate.swift */; };
-		E11CE12A1CE792E40056B6C9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11CE1291CE792E40056B6C9 /* LoginViewController.swift */; };
 		E11CE12D1CE792E40056B6C9 /* StartPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11CE12B1CE792E40056B6C9 /* StartPage.storyboard */; };
 		E11CE12F1CE792E40056B6C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11CE12E1CE792E40056B6C9 /* Assets.xcassets */; };
 		E11CE1321CE792E40056B6C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11CE1301CE792E40056B6C9 /* LaunchScreen.storyboard */; };
-		E11CE13A1CE795670056B6C9 /* FindCauses.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11CE1391CE795670056B6C9 /* FindCauses.storyboard */; };
-		E11CE13C1CE79B8C0056B6C9 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11CE13B1CE79B8C0056B6C9 /* DataModel.swift */; };
 		E11CE13E1CE79C6B0056B6C9 /* ProjectListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11CE13D1CE79C6B0056B6C9 /* ProjectListCell.swift */; };
-		E11CE1401CE79C810056B6C9 /* ProjectListTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11CE13F1CE79C810056B6C9 /* ProjectListTable.swift */; };
 		E11CE1421CE79E0A0056B6C9 /* ProjectListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11CE1411CE79E0A0056B6C9 /* ProjectListTableViewController.swift */; };
 		E11CE1461CE79F690056B6C9 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11CE1431CE79F690056B6C9 /* FBSDKCoreKit.framework */; };
 		E11CE1471CE79F690056B6C9 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11CE1441CE79F690056B6C9 /* FBSDKLoginKit.framework */; };
 		E11CE1481CE79F690056B6C9 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11CE1451CE79F690056B6C9 /* FBSDKShareKit.framework */; };
 		E11CE14B1CE7A24D0056B6C9 /* Objective-CBridgingHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = E11CE14A1CE7A24D0056B6C9 /* Objective-CBridgingHeader.m */; };
 		E11CE14D1CE7BA470056B6C9 /* PagingIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11CE14C1CE7BA470056B6C9 /* PagingIntroViewController.swift */; };
+		E143AA991CE80574009DD851 /* projects.json in Resources */ = {isa = PBXBuildFile; fileRef = E143AA981CE80574009DD851 /* projects.json */; };
+		E1923A411CEA668300164990 /* FBLoginApISwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1923A401CEA668300164990 /* FBLoginApISwift.swift */; };
+		E1923A431CEA6C3E00164990 /* FindCauses.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1923A421CEA6C3E00164990 /* FindCauses.storyboard */; };
+		E1923A451CEBE7CB00164990 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1923A441CEBE7CB00164990 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		231D8151051C3AB09FE063F8 /* Pods-Hackathon App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackathon App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hackathon App/Pods-Hackathon App.debug.xcconfig"; sourceTree = "<group>"; };
 		8740729504D1542B200E3350 /* Pods_Hackathon_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hackathon_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A618BC87340F6C3D892DA56 /* Pods-Hackathon App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackathon App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hackathon App/Pods-Hackathon App.release.xcconfig"; sourceTree = "<group>"; };
-		E11CE1241CE792E40056B6C9 /* Hackathon App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hackathon App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11CE1241CE792E40056B6C9 /* Wildfire App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wildfire App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11CE1271CE792E40056B6C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E11CE1291CE792E40056B6C9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E11CE12C1CE792E40056B6C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/StartPage.storyboard; sourceTree = "<group>"; };
 		E11CE12E1CE792E40056B6C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E11CE1311CE792E40056B6C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E11CE1331CE792E40056B6C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E11CE1391CE795670056B6C9 /* FindCauses.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FindCauses.storyboard; sourceTree = "<group>"; };
-		E11CE13B1CE79B8C0056B6C9 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		E11CE13D1CE79C6B0056B6C9 /* ProjectListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectListCell.swift; sourceTree = "<group>"; };
-		E11CE13F1CE79C810056B6C9 /* ProjectListTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectListTable.swift; sourceTree = "<group>"; };
 		E11CE1411CE79E0A0056B6C9 /* ProjectListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProjectListTableViewController.swift; path = ../ProjectListTableViewController.swift; sourceTree = "<group>"; };
 		E11CE1431CE79F690056B6C9 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		E11CE1441CE79F690056B6C9 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		E11CE1451CE79F690056B6C9 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
-		E11CE1491CE7A24D0056B6C9 /* Hackathon App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hackathon App-Bridging-Header.h"; sourceTree = "<group>"; };
 		E11CE14A1CE7A24D0056B6C9 /* Objective-CBridgingHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Objective-CBridgingHeader.m"; sourceTree = "<group>"; };
 		E11CE14C1CE7BA470056B6C9 /* PagingIntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingIntroViewController.swift; sourceTree = "<group>"; };
+		E143AA981CE80574009DD851 /* projects.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = projects.json; sourceTree = "<group>"; };
+		E1923A401CEA668300164990 /* FBLoginApISwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBLoginApISwift.swift; sourceTree = "<group>"; };
+		E1923A421CEA6C3E00164990 /* FindCauses.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FindCauses.storyboard; sourceTree = "<group>"; };
+		E1923A441CEBE7CB00164990 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +86,7 @@
 		E11CE11B1CE792E40056B6C9 = {
 			isa = PBXGroup;
 			children = (
-				E11CE1261CE792E40056B6C9 /* Hackathon App */,
+				E11CE1261CE792E40056B6C9 /* Wildfire App */,
 				E11CE1251CE792E40056B6C9 /* Products */,
 				D0CD9D80D2BFC6464C33E532 /* Pods */,
 				847358205BBBFE5E00D17662 /* Frameworks */,
@@ -97,38 +96,46 @@
 		E11CE1251CE792E40056B6C9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E11CE1241CE792E40056B6C9 /* Hackathon App.app */,
+				E11CE1241CE792E40056B6C9 /* Wildfire App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E11CE1261CE792E40056B6C9 /* Hackathon App */ = {
+		E11CE1261CE792E40056B6C9 /* Wildfire App */ = {
 			isa = PBXGroup;
 			children = (
-				E11CE1271CE792E40056B6C9 /* AppDelegate.swift */,
-				E11CE14A1CE7A24D0056B6C9 /* Objective-CBridgingHeader.m */,
-				E11CE1291CE792E40056B6C9 /* LoginViewController.swift */,
-				E11CE14C1CE7BA470056B6C9 /* PagingIntroViewController.swift */,
-				E11CE12B1CE792E40056B6C9 /* StartPage.storyboard */,
-				E11CE1391CE795670056B6C9 /* FindCauses.storyboard */,
+				E143AA9A1CE80589009DD851 /* Resources */,
 				E11CE1301CE792E40056B6C9 /* LaunchScreen.storyboard */,
-				E11CE13B1CE79B8C0056B6C9 /* DataModel.swift */,
+				E11CE12B1CE792E40056B6C9 /* StartPage.storyboard */,
+				E1923A421CEA6C3E00164990 /* FindCauses.storyboard */,
+				E11CE14C1CE7BA470056B6C9 /* PagingIntroViewController.swift */,
 				E11CE1411CE79E0A0056B6C9 /* ProjectListTableViewController.swift */,
-				E11CE13F1CE79C810056B6C9 /* ProjectListTable.swift */,
+				E1923A401CEA668300164990 /* FBLoginApISwift.swift */,
 				E11CE13D1CE79C6B0056B6C9 /* ProjectListCell.swift */,
+				E1923A441CEBE7CB00164990 /* DataModel.swift */,
+				E11CE1271CE792E40056B6C9 /* AppDelegate.swift */,
+			);
+			name = "Wildfire App";
+			path = "Hackathon App";
+			sourceTree = "<group>";
+		};
+		E143AA9A1CE80589009DD851 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E11CE14A1CE7A24D0056B6C9 /* Objective-CBridgingHeader.m */,
+				E143AA981CE80574009DD851 /* projects.json */,
 				E11CE12E1CE792E40056B6C9 /* Assets.xcassets */,
 				E11CE1331CE792E40056B6C9 /* Info.plist */,
-				E11CE1491CE7A24D0056B6C9 /* Hackathon App-Bridging-Header.h */,
 			);
-			path = "Hackathon App";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E11CE1231CE792E40056B6C9 /* Hackathon App */ = {
+		E11CE1231CE792E40056B6C9 /* Wildfire App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E11CE1361CE792E40056B6C9 /* Build configuration list for PBXNativeTarget "Hackathon App" */;
+			buildConfigurationList = E11CE1361CE792E40056B6C9 /* Build configuration list for PBXNativeTarget "Wildfire App" */;
 			buildPhases = (
 				88CF62E7064550492889EFCF /* Check Pods Manifest.lock */,
 				E11CE1201CE792E40056B6C9 /* Sources */,
@@ -141,9 +148,9 @@
 			);
 			dependencies = (
 			);
-			name = "Hackathon App";
+			name = "Wildfire App";
 			productName = "Hackathon App";
-			productReference = E11CE1241CE792E40056B6C9 /* Hackathon App.app */;
+			productReference = E11CE1241CE792E40056B6C9 /* Wildfire App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -158,10 +165,11 @@
 				TargetAttributes = {
 					E11CE1231CE792E40056B6C9 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = X7Y2N6M5RS;
 					};
 				};
 			};
-			buildConfigurationList = E11CE11F1CE792E40056B6C9 /* Build configuration list for PBXProject "Hackathon App" */;
+			buildConfigurationList = E11CE11F1CE792E40056B6C9 /* Build configuration list for PBXProject "Wildfire App" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -174,7 +182,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E11CE1231CE792E40056B6C9 /* Hackathon App */,
+				E11CE1231CE792E40056B6C9 /* Wildfire App */,
 			);
 		};
 /* End PBXProject section */
@@ -185,9 +193,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E11CE1321CE792E40056B6C9 /* LaunchScreen.storyboard in Resources */,
-				E11CE13A1CE795670056B6C9 /* FindCauses.storyboard in Resources */,
+				E143AA991CE80574009DD851 /* projects.json in Resources */,
 				E11CE12F1CE792E40056B6C9 /* Assets.xcassets in Resources */,
 				E11CE12D1CE792E40056B6C9 /* StartPage.storyboard in Resources */,
+				E1923A431CEA6C3E00164990 /* FindCauses.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,14 +255,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E11CE12A1CE792E40056B6C9 /* LoginViewController.swift in Sources */,
+				E1923A451CEBE7CB00164990 /* DataModel.swift in Sources */,
 				E11CE14B1CE7A24D0056B6C9 /* Objective-CBridgingHeader.m in Sources */,
 				E11CE1421CE79E0A0056B6C9 /* ProjectListTableViewController.swift in Sources */,
 				E11CE14D1CE7BA470056B6C9 /* PagingIntroViewController.swift in Sources */,
 				E11CE1281CE792E40056B6C9 /* AppDelegate.swift in Sources */,
-				E11CE1401CE79C810056B6C9 /* ProjectListTable.swift in Sources */,
-				E11CE13C1CE79B8C0056B6C9 /* DataModel.swift in Sources */,
 				E11CE13E1CE79C6B0056B6C9 /* ProjectListCell.swift in Sources */,
+				E1923A411CEA668300164990 /* FBLoginApISwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,16 +378,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "Hackathon App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "nataliachodelski.Hackathon-App";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "nataliachodelski.Wildfire-App";
+				PRODUCT_NAME = "Wildfire App";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Hackathon App/Hackathon App-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -389,22 +401,26 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "Hackathon App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "nataliachodelski.Hackathon-App";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "nataliachodelski.Wildfire-App";
+				PRODUCT_NAME = "Wildfire App";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Hackathon App/Hackathon App-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E11CE11F1CE792E40056B6C9 /* Build configuration list for PBXProject "Hackathon App" */ = {
+		E11CE11F1CE792E40056B6C9 /* Build configuration list for PBXProject "Wildfire App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E11CE1341CE792E40056B6C9 /* Debug */,
@@ -413,7 +429,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E11CE1361CE792E40056B6C9 /* Build configuration list for PBXNativeTarget "Hackathon App" */ = {
+		E11CE1361CE792E40056B6C9 /* Build configuration list for PBXNativeTarget "Wildfire App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E11CE1371CE792E40056B6C9 /* Debug */,

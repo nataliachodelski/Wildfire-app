@@ -1,0 +1,29 @@
+{
+    
+    "disaster1": {
+        "org": "Association for Aid and Relief, Japan",
+        "event": "Earthquake",
+        "location": "Kumamoto, Japan",
+        "detail": "On April 15, 2016, a series of earthquakes, including a magnitude 7.0 mainshock, struck Southern Japanese Island of Kyushu.",
+        "impact": "42 deaths, more than 1000 injuries, and 110,816 evacuated.",
+        "needs": ["donation", "medical care", "water", "food", "shelter"]
+    },
+    
+    "disaster2": {
+        "org": "Cruz Roja Ecuador",
+        "event": "Earthquake",
+        "location": "Ecuador, Peru",
+        "detail": "On April 16, 2016, an earthquake of 7.8 magnitude hit Ecuador.",
+        "impact": "More than 650 deaths, more than 12,500 injuries, and 7000 buildings destroyed.",
+        "needs": ["donation", "medical care", "water", "food", "shelter", "supplies", "volunteers", "international aid"]
+    },
+    
+    "disaster3": {
+        "org": "CARE",
+        "event": "Civil War/Refugee Crisis",
+        "location": "Syria and Europe",
+        "detail": "Due to an ongoing violent civil war, 4.8 million Syrians are refugees, and 6.5 million are displaced within Syria.",
+        "impact": "Since the Syrian civil war began, as many as 386,000 people have been killed, including nearly 14,000 children.",
+        "needs": ["donation", "food", "clothing", "medical care", "shelter", "supply", "water", "school", "employment"]
+    }
+}

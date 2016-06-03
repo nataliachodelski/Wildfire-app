@@ -108,7 +108,7 @@ SWIFT_CLASS("_TtC13Hackathon_App11AppDelegate")
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 @property (nonatomic, strong) UIWindow * _Nullable window;
 - (BOOL)application:(UIApplication * _Nonnull)application didFinishLaunchingWithOptions:(NSDictionary * _Nullable)launchOptions;
-- (BOOL)application:(UIApplication * _Nonnull)application openURL:(NSURL * _Nonnull)url sourceApplication:(NSString * _Nullable)sourceApplication annotation:(id _Nullable)annotation;
+- (BOOL)application:(UIApplication * _Nonnull)application openURL:(NSURL * _Nonnull)url sourceApplication:(NSString * _Nullable)sourceApplication annotation:(id _Nonnull)annotation;
 - (void)applicationWillResignActive:(UIApplication * _Nonnull)application;
 - (void)applicationDidEnterBackground:(UIApplication * _Nonnull)application;
 - (void)applicationWillEnterForeground:(UIApplication * _Nonnull)application;
@@ -123,13 +123,21 @@ SWIFT_CLASS("_TtC13Hackathon_App9DataModel")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIButton;
+@class NSBundle;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC13Hackathon_App15FBLoginApISwift")
+@interface FBLoginApISwift : UIViewController
+- (void)buttonClicked:(UIButton * _Null_unspecified)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIScrollView;
 @class UIImage;
 @class UIPageControl;
-@class UIButton;
 @class UIStoryboardSegue;
-@class NSBundle;
-@class NSCoder;
 
 SWIFT_CLASS("_TtC13Hackathon_App25PagingIntroViewController")
 @interface PagingIntroViewController : UIViewController <UIScrollViewDelegate>
@@ -144,6 +152,7 @@ SWIFT_CLASS("_TtC13Hackathon_App25PagingIntroViewController")
 @property (nonatomic, readonly, strong) UIImage * _Nullable image4;
 - (void)viewDidLoad;
 - (void)buttonClicked:(UIButton * _Null_unspecified)sender;
+- (void)segueToNext;
 - (void)configurePageControl;
 - (void)changePage:(id _Nonnull)sender;
 - (void)scrollViewDidEndDecelerating:(UIScrollView * _Nonnull)scrollView;
@@ -171,6 +180,14 @@ SWIFT_CLASS("_TtC13Hackathon_App15ProjectListCell")
 
 SWIFT_CLASS("_TtC13Hackathon_App30ProjectListTableViewController")
 @interface ProjectListTableViewController : UITableViewController
+@property (nonatomic, copy) NSArray<UIImage *> * _Nonnull demoImages;
+@property (nonatomic, copy) NSArray<NSString *> * _Nonnull event;
+@property (nonatomic, copy) NSArray<NSString *> * _Nonnull type;
+@property (nonatomic, copy) NSArray<NSString *> * _Nonnull location;
+@property (nonatomic, copy) NSArray<NSDictionary<NSString *, NSString *> *> * _Nonnull objects;
+@property (nonatomic, copy) NSArray<NSString *> * _Nonnull orgStrings;
+@property (nonatomic, copy) NSArray<NSString *> * _Nonnull eventTypes;
+@property (nonatomic, copy) NSArray<NSString *> * _Nonnull locationStrings;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView;
