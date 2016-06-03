@@ -8,16 +8,24 @@
 
 import Foundation
 import UIKit
+import SwiftyJSON
 
 class DataModel : NSObject {
+    
+    //var demoData = NSData(contentsOfURL: NSURL(fileURLWithPath: "projects.json"))
+    
+    var currentEvents : [ProjectObject] = []
     
 }
 
 
 
 class ProjectObject : NSObject {
-    var title : String!
-    var projectDescription : String!
-    var location : String! // optionall dictonary with associated GPS coordinates or something
+    internal var orgName : String!
+    internal var eventType : String!
+    var eventLocation : String!
+    var eventDescription : String!
+    var eventImpact : String!// optionall dictonary with associated GPS coordinates or something
     var image : UIImage!
+
 }
