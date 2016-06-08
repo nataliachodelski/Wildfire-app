@@ -20,6 +20,7 @@
 		E11CE14B1CE7A24D0056B6C9 /* Objective-CBridgingHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = E11CE14A1CE7A24D0056B6C9 /* Objective-CBridgingHeader.m */; };
 		E11CE14D1CE7BA470056B6C9 /* PagingIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11CE14C1CE7BA470056B6C9 /* PagingIntroViewController.swift */; };
 		E143AA991CE80574009DD851 /* projects.json in Resources */ = {isa = PBXBuildFile; fileRef = E143AA981CE80574009DD851 /* projects.json */; };
+		E1872C321D07AD320058DFAD /* DonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1872C311D07AD320058DFAD /* DonateViewController.swift */; };
 		E1923A411CEA668300164990 /* FBLoginApISwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1923A401CEA668300164990 /* FBLoginApISwift.swift */; };
 		E1923A431CEA6C3E00164990 /* FindCauses.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1923A421CEA6C3E00164990 /* FindCauses.storyboard */; };
 		E1923A451CEBE7CB00164990 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1923A441CEBE7CB00164990 /* DataModel.swift */; };
@@ -44,6 +45,7 @@
 		E11CE14A1CE7A24D0056B6C9 /* Objective-CBridgingHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Objective-CBridgingHeader.m"; sourceTree = "<group>"; };
 		E11CE14C1CE7BA470056B6C9 /* PagingIntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingIntroViewController.swift; sourceTree = "<group>"; };
 		E143AA981CE80574009DD851 /* projects.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = projects.json; sourceTree = "<group>"; };
+		E1872C311D07AD320058DFAD /* DonateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DonateViewController.swift; path = ../DonateViewController.swift; sourceTree = "<group>"; };
 		E1923A401CEA668300164990 /* FBLoginApISwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBLoginApISwift.swift; sourceTree = "<group>"; };
 		E1923A421CEA6C3E00164990 /* FindCauses.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FindCauses.storyboard; sourceTree = "<group>"; };
 		E1923A441CEBE7CB00164990 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				E11CE14C1CE7BA470056B6C9 /* PagingIntroViewController.swift */,
 				E11CE1411CE79E0A0056B6C9 /* ProjectListTableViewController.swift */,
 				E1923A401CEA668300164990 /* FBLoginApISwift.swift */,
+				E1872C311D07AD320058DFAD /* DonateViewController.swift */,
 				E11CE13D1CE79C6B0056B6C9 /* ProjectListCell.swift */,
 				E1923A441CEBE7CB00164990 /* DataModel.swift */,
 				E11CE1271CE792E40056B6C9 /* AppDelegate.swift */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1923A451CEBE7CB00164990 /* DataModel.swift in Sources */,
+				E1872C321D07AD320058DFAD /* DonateViewController.swift in Sources */,
 				E11CE14B1CE7A24D0056B6C9 /* Objective-CBridgingHeader.m in Sources */,
 				E11CE1421CE79E0A0056B6C9 /* ProjectListTableViewController.swift in Sources */,
 				E11CE14D1CE7BA470056B6C9 /* PagingIntroViewController.swift in Sources */,
