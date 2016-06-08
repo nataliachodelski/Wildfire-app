@@ -134,11 +134,11 @@ class DataModel : NSObject {
 
 // object that stores info for each project/cause listd
 class ProjectObject : NSObject {
-    internal var orgName : String!
-    internal var eventType : String!
-    var eventLocation : String!
-    var eventDescription : String!
-    var eventImpact : String!// optionall dictonary with associated GPS coordinates or something
+    internal var orgName : String = ""
+    internal var eventType : String = ""
+    var eventLocation : String = ""
+    var eventDescription : String = ""
+    var eventImpact : String = ""// optionall dictonary with associated GPS coordinates or something
     var smallImage : UIImage!
     var fullImage : UIImage!
     

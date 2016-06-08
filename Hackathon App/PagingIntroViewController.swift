@@ -23,17 +23,13 @@ class PagingIntroViewController: UIViewController, UIScrollViewDelegate {
     
     var facebookButton = UIButton()
     
-//    var images:[UIImage] = []
-//    let image1 = UIImage(named: "Intro1")
-//    let image2 = UIImage(named: "Intro2")
-//    let image3 = UIImage(named: "Intro3")
-//    let image4 = UIImage(named: "Intro4")
 
     override func shouldAutorotate() -> Bool {
         return false
     }
+    
     override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
-        return UIInterfaceOrientationMask.Portrait
+        return UIInterfaceOrientationMask.AllButUpsideDown
     }
     
     override func viewDidLoad()
@@ -135,10 +131,7 @@ class PagingIntroViewController: UIViewController, UIScrollViewDelegate {
             }
             else if result.isCancelled {
                 // Handle cancellations
-                NSLog("FB login Cancelled")
-                dispatch_async(dispatch_get_main_queue(), {
-                    self.segueToNext()
-                })
+                NSLog("FB login was Cancelled")
             }
             else {  // was containx "email" earlier
                 if result.grantedPermissions.contains("public_profile") {

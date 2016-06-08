@@ -45,11 +45,14 @@ class ProjectListTableViewController: UITableViewController {
         cell.projectOrgName.text = currentProj.orgName
         cell.projectEventType.text = currentProj.eventType
         cell.projectLocation.text = currentProj.eventLocation
-        cell.projectImage.image = currentProj.image
+        cell.projectImage.image = currentProj.smallImage
         
         return cell
     }
     
+    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.AllButUpsideDown
+    }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         let row = indexPath.row
