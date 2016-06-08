@@ -7,10 +7,10 @@ provides-member:
 provides-dynamic-lookup:
 - "queryParameters"
 depends-top-level:
-- "String"
-- "NSURL"
-- !private "NSURLComponents"
 - !private "BooleanLiteralType"
+- "NSURL"
+- "String"
+- !private "NSURLComponents"
 depends-member:
 - !private ["Ps9AnyObject", "NSURLComponents"]
 - !private ["Ps9AnyObject", "String"]

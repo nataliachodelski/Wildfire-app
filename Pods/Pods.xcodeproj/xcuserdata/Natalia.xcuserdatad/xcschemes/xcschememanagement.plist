@@ -9,7 +9,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Hackathon App.xcscheme</key>
+		<key>Pods-Wildfire App.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,12 +22,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>7DD5E35148D9FFE14775931FDF13F5DC</key>
+		<key>05F77BAD07DF35C52235F8AE7BB6F759</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C5A48A24C087BFE070B90FD911EB0B3F</key>
+		<key>11B276BE7D513937C1A8119E9B9D20CF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

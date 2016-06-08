@@ -10,21 +10,21 @@ provides-member:
 - ["CSo18NSAttributedString", "color"]
 provides-dynamic-lookup:
 - "underline"
-- "color"
-- "italic"
 - "bold"
+- "italic"
+- "color"
 depends-top-level:
-- !private "NSFontAttributeName"
-- "UIColor"
-- !private "NSUnderlineStyle"
-- !private "NSUnderlineStyleAttributeName"
 - "+="
 - !private "UIFont"
-- !private "NSString"
+- !private "NSForegroundColorAttributeName"
 - !private "Dictionary"
 - "NSAttributedString"
+- !private "NSFontAttributeName"
 - !private "NSMutableAttributedString"
-- !private "NSForegroundColorAttributeName"
+- "UIColor"
+- !private "NSUnderlineStyleAttributeName"
+- !private "NSString"
+- !private "NSUnderlineStyle"
 depends-member:
 - !private ["Ps9AnyObject", "NSFontAttributeName"]
 - !private ["Ps9AnyObject", "NSForegroundColorAttributeName"]

@@ -9,8 +9,8 @@ provides-dynamic-lookup:
 - "className"
 - "className"
 depends-top-level:
-- "String"
 - "NSObject"
+- "String"
 depends-member:
 - !private ["Ps9AnyObject", "String"]
 - !private ["Ps9AnyObject", "className"]

@@ -4,12 +4,12 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Products/Debug-iphonesimulator/EZSwiftExtensions.framework/Headers",
+      'name': "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Products/Debug-iphonesimulator/EZSwiftExtensions/EZSwiftExtensions.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "EZSwiftExtensions-Swift.h",
-          'external-contents': "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Products/Debug-iphonesimulator/EZSwiftExtensions.framework/Headers/EZSwiftExtensions-Swift.h"
+          'external-contents': "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Products/Debug-iphonesimulator/EZSwiftExtensions/EZSwiftExtensions.framework/Headers/EZSwiftExtensions-Swift.h"
         },
         {
           'type': 'file',
@@ -20,7 +20,7 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Products/Debug-iphonesimulator/EZSwiftExtensions.framework/Modules",
+      'name': "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Products/Debug-iphonesimulator/EZSwiftExtensions/EZSwiftExtensions.framework/Modules",
       'contents': [
         {
           'type': 'file',
@@ -31,39 +31,39 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Products/Debug-iphonesimulator/Pods_Hackathon_App.framework/Headers",
+      'name': "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Products/Debug-iphonesimulator/Pods_Wildfire_App.framework/Headers",
       'contents': [
         {
           'type': 'file',
-          'name': "Pods-Hackathon App-umbrella.h",
-          'external-contents': "/Users/Natalia/Coding/iOS/Hackathon App/Pods/Target Support Files/Pods-Hackathon App/Pods-Hackathon App-umbrella.h"
+          'name': "Pods-Wildfire App-umbrella.h",
+          'external-contents': "/Users/Natalia/Coding/iOS/Hackathon App/Pods/Target Support Files/Pods-Wildfire App/Pods-Wildfire App-umbrella.h"
         },
         {
           'type': 'file',
-          'name': "Pods_Hackathon_App-Swift.h",
-          'external-contents': "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Products/Debug-iphonesimulator/Pods_Hackathon_App.framework/Headers/Pods_Hackathon_App-Swift.h"
+          'name': "Pods_Wildfire_App-Swift.h",
+          'external-contents': "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Products/Debug-iphonesimulator/Pods_Wildfire_App.framework/Headers/Pods_Wildfire_App-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Products/Debug-iphonesimulator/Pods_Hackathon_App.framework/Modules",
+      'name': "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Products/Debug-iphonesimulator/Pods_Wildfire_App.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Hackathon App.build/module.modulemap"
+          'external-contents': "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Wildfire App.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Products/Debug-iphonesimulator/SwiftyJSON.framework/Headers",
+      'name': "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "SwiftyJSON-Swift.h",
-          'external-contents': "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Products/Debug-iphonesimulator/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+          'external-contents': "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
         },
         {
           'type': 'file',
@@ -74,7 +74,7 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Products/Debug-iphonesimulator/SwiftyJSON.framework/Modules",
+      'name': "/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules",
       'contents': [
         {
           'type': 'file',

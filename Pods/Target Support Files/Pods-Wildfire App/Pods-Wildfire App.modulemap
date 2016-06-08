@@ -1,0 +1,6 @@
+framework module Pods_Wildfire_App {
+  umbrella header "Pods-Wildfire App-umbrella.h"
+
+  export *
+  module * { export * }
+}

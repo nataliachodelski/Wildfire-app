@@ -7,8 +7,8 @@ provides-member:
 - ["Vs9Character", "toInt"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Character"
 - "Int"
+- "Character"
 - "String"
 depends-member:
 - !private ["Ps22BidirectionalIndexType", "init"]

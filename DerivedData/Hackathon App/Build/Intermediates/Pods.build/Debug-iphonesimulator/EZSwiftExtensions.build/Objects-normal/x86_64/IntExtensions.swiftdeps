@@ -18,25 +18,25 @@ provides-member:
 - ["Su", "toInt"]
 provides-dynamic-lookup:
 depends-top-level:
+- "CGFloat"
+- !private "<"
 - "UInt"
 - !private "log10"
-- !private "=="
+- !private ">"
 - !private "%"
-- !private "+"
-- !private "fabs"
-- "Int"
+- "String"
 - !private "!="
 - !private "..<"
+- !private "=="
 - "Bool"
-- "CGFloat"
-- "Float"
-- !private "<"
+- !private "fabs"
 - "Double"
+- !private "+"
+- "Float"
+- "Int"
 - !private "<="
 - !private "LONG_MAX"
-- "String"
 - "Range"
-- !private ">"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "init"]
 - !private ["Ps22BidirectionalIndexType", "CGFloat"]

@@ -7,9 +7,9 @@ provides-member:
 provides-dynamic-lookup:
 - "subscript"
 depends-top-level:
+- "String"
 - "AnyObject"
 - "NSUserDefaults"
-- "String"
 depends-member:
 - !private ["Ps9AnyObject", "objectForKey"]
 - !private ["Ps9AnyObject", "setObject"]

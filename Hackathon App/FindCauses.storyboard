@@ -1,48 +1,107 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Projects-->
         <scene sceneID="wsF-TA-eFD">
             <objects>
-                <tableViewController title="Projects" id="FaA-yb-dg2" customClass="ProjectListTableViewController" customModule="Hackathon_App" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="jf3-sB-Kf0">
+                <tableViewController title="Projects" id="FaA-yb-dg2" customClass="ProjectListTableViewController" customModule="Wildfire_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="161" sectionHeaderHeight="28" sectionFooterHeight="28" id="jf3-sB-Kf0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="projectListCell" rowHeight="143" id="0Gm-N3-06I" customClass="ProjectListCell" customModule="Hackathon_App" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="375" height="143"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="projectListCell" rowHeight="150" id="0Gm-N3-06I" customClass="ProjectListCell" customModule="Wildfire_App" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="150"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0Gm-N3-06I" id="oEb-HD-UYf">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="142.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="149.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jiQ-FH-8PE">
-                                            <rect key="frame" x="8" y="11" width="115" height="95"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="fTx-ci-l3k">
+                                            <rect key="frame" x="140" y="0.0" width="227" height="62"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="227" id="7nA-aF-Xsa"/>
+                                                <constraint firstAttribute="height" constant="62" id="W2W-wk-o9Q"/>
+                                            </constraints>
+                                            <attributedString key="attributedText">
+                                                <fragment content="Project Name">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <font key="NSFont" size="27" name="AvenirNext-Regular"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FFI-1B-Ay4">
+                                            <rect key="frame" x="140" y="60" width="197" height="28"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="197" id="I86-X4-ccT"/>
+                                                <constraint firstAttribute="height" constant="28" id="fUT-u5-ANm"/>
+                                            </constraints>
+                                            <attributedString key="attributedText">
+                                                <fragment content="Project Description">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.53333333333333333" green="0.53333333333333333" blue="0.53333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <font key="NSFont" size="17" name="AvenirNext-Regular"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="highlightedColor" red="0.87058823529411766" green="0.38431372549019605" blue="0.38431372549019605" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="phW-sC-rfC">
+                                            <rect key="frame" x="159" y="126" width="173" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="173" id="7Cc-nI-AT9"/>
+                                            </constraints>
+                                            <attributedString key="attributedText">
+                                                <fragment content="Location (optional)">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="locationPin" translatesAutoresizingMaskIntoConstraints="NO" id="jx8-Sh-nQX">
+                                            <rect key="frame" x="141" y="126" width="13" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="13" id="omL-Xp-NqH"/>
+                                            </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Project Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fTx-ci-l3k">
-                                            <rect key="frame" x="135" y="16" width="104" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Project Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FFI-1B-Ay4">
-                                            <rect key="frame" x="135" y="45" width="232" height="39"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Location (optional)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phW-sC-rfC">
-                                            <rect key="frame" x="135" y="90" width="143" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jiQ-FH-8PE">
+                                            <rect key="frame" x="3" y="0.0" width="136" height="160.5"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="136" id="9Nc-RC-1O1"/>
+                                                <constraint firstAttribute="height" constant="160.5" id="ED8-hq-Yib"/>
+                                                <constraint firstAttribute="width" constant="136" id="tzr-PO-ldB"/>
+                                            </constraints>
+                                        </imageView>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="jiQ-FH-8PE" firstAttribute="top" secondItem="oEb-HD-UYf" secondAttribute="topMargin" constant="-8" id="3VG-h1-pCY"/>
+                                        <constraint firstItem="jx8-Sh-nQX" firstAttribute="top" secondItem="FFI-1B-Ay4" secondAttribute="bottom" constant="38" id="50O-CC-Kby"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="FFI-1B-Ay4" secondAttribute="trailing" constant="30" id="5Br-Dx-Ueb"/>
+                                        <constraint firstItem="fTx-ci-l3k" firstAttribute="trailing" secondItem="oEb-HD-UYf" secondAttribute="trailingMargin" id="6Ny-Rg-EKb"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="phW-sC-rfC" secondAttribute="trailing" constant="35" id="AVK-Je-3Ik"/>
+                                        <constraint firstItem="fTx-ci-l3k" firstAttribute="leading" secondItem="jiQ-FH-8PE" secondAttribute="trailing" constant="1" id="DN6-fn-lou"/>
+                                        <constraint firstItem="FFI-1B-Ay4" firstAttribute="centerY" secondItem="oEb-HD-UYf" secondAttribute="centerY" constant="-0.75" id="Fd9-Bg-Tp6"/>
+                                        <constraint firstItem="fTx-ci-l3k" firstAttribute="top" secondItem="oEb-HD-UYf" secondAttribute="top" id="Oro-rb-7Wz"/>
+                                        <constraint firstItem="FFI-1B-Ay4" firstAttribute="leading" secondItem="jiQ-FH-8PE" secondAttribute="trailing" constant="1" id="P39-YQ-jLO"/>
+                                        <constraint firstItem="jx8-Sh-nQX" firstAttribute="bottom" secondItem="phW-sC-rfC" secondAttribute="bottom" id="buR-cP-qtP"/>
+                                        <constraint firstItem="jiQ-FH-8PE" firstAttribute="leading" secondItem="oEb-HD-UYf" secondAttribute="leadingMargin" constant="-5" id="grC-o1-ffp"/>
+                                        <constraint firstItem="jx8-Sh-nQX" firstAttribute="top" secondItem="fTx-ci-l3k" secondAttribute="bottom" constant="64" id="jp4-rY-sI8"/>
+                                        <constraint firstItem="phW-sC-rfC" firstAttribute="leading" secondItem="jx8-Sh-nQX" secondAttribute="trailing" constant="5" id="oTM-vb-4cT"/>
+                                        <constraint firstItem="jx8-Sh-nQX" firstAttribute="top" secondItem="phW-sC-rfC" secondAttribute="top" id="vbV-Pj-cbp"/>
+                                        <constraint firstItem="jx8-Sh-nQX" firstAttribute="top" secondItem="jiQ-FH-8PE" secondAttribute="bottom" constant="-34.5" id="xgq-P5-Rzu"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="jx8-Sh-nQX" secondAttribute="bottom" constant="-5.5" id="yCD-zl-BUM"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="projectDescription" destination="phW-sC-rfC" id="IWT-7U-Liu"/>
@@ -64,4 +123,7 @@
             <point key="canvasLocation" x="251.5" y="-449.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="locationPin" width="19" height="27"/>
+    </resources>
 </document>

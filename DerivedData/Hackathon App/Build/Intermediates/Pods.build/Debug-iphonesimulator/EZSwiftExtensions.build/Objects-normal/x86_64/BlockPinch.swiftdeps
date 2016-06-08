@@ -8,11 +8,11 @@ provides-member:
 provides-dynamic-lookup:
 - "didPinch"
 depends-top-level:
-- "Selector"
-- "AnyObject"
 - "Void"
-- "UIPinchGestureRecognizer"
 - "BlockPinch"
+- "Selector"
+- "UIPinchGestureRecognizer"
+- "AnyObject"
 depends-member:
 - !private ["Ps9AnyObject", "BlockPinch"]
 - !private ["Ps9AnyObject", "addTarget"]

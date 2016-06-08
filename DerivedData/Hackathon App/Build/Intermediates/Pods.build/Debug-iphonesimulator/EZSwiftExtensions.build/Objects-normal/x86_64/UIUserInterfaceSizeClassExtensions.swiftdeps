@@ -6,10 +6,10 @@ provides-member:
 - ["OSC24UIUserInterfaceSizeClass", "stringValue"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "StringLiteralType"
-- !private "~="
 - "UIUserInterfaceSizeClass"
+- !private "StringLiteralType"
 - "String"
+- !private "~="
 depends-member:
 - !private ["Ps22BidirectionalIndexType", "Distance"]
 - !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]

@@ -6,10 +6,10 @@ provides-member:
 - ["CSo8UIWindow", "init"]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "UIScreen"
+- "UIWindow"
 - "UIColor"
 - "UIViewController"
-- "UIWindow"
-- !private "UIScreen"
 depends-member:
 - !private ["Ps9AnyObject", "UIScreen"]
 - !private ["Ps9AnyObject", "backgroundColor"]
