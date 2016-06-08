@@ -22,7 +22,7 @@
 		E143AA991CE80574009DD851 /* projects.json in Resources */ = {isa = PBXBuildFile; fileRef = E143AA981CE80574009DD851 /* projects.json */; };
 		E1872C321D07AD320058DFAD /* DonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1872C311D07AD320058DFAD /* DonateViewController.swift */; };
 		E1923A411CEA668300164990 /* FBLoginApISwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1923A401CEA668300164990 /* FBLoginApISwift.swift */; };
-		E1923A431CEA6C3E00164990 /* FindCauses.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1923A421CEA6C3E00164990 /* FindCauses.storyboard */; };
+		E1923A431CEA6C3E00164990 /* Wildfire App in Resources */ = {isa = PBXBuildFile; fileRef = E1923A421CEA6C3E00164990 /* Wildfire App */; };
 		E1923A451CEBE7CB00164990 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1923A441CEBE7CB00164990 /* DataModel.swift */; };
 		E1B38F8B1D01F49E006AECCD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B38F8A1D01F49E006AECCD /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
@@ -31,24 +31,24 @@
 		8B2E5ED38867165B27B3B296 /* Pods-Wildfire App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wildfire App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wildfire App/Pods-Wildfire App.debug.xcconfig"; sourceTree = "<group>"; };
 		DB33E0E9993FC342443547D7 /* Pods_Wildfire_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wildfire_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11CE1241CE792E40056B6C9 /* Wildfire App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wildfire App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E11CE1271CE792E40056B6C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E11CE1271CE792E40056B6C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../Wildfire App/AppDelegate.swift"; sourceTree = "<group>"; };
 		E11CE12C1CE792E40056B6C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/StartPage.storyboard; sourceTree = "<group>"; };
 		E11CE12E1CE792E40056B6C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E11CE1311CE792E40056B6C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E11CE1331CE792E40056B6C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E11CE13D1CE79C6B0056B6C9 /* ProjectListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectListCell.swift; sourceTree = "<group>"; };
-		E11CE1411CE79E0A0056B6C9 /* ProjectListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectListTableViewController.swift; sourceTree = "<group>"; };
+		E11CE13D1CE79C6B0056B6C9 /* ProjectListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProjectListCell.swift; path = "../Wildfire App/ProjectListCell.swift"; sourceTree = "<group>"; };
+		E11CE1411CE79E0A0056B6C9 /* ProjectListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProjectListTableViewController.swift; path = "../Wildfire App/ProjectListTableViewController.swift"; sourceTree = "<group>"; };
 		E11CE1431CE79F690056B6C9 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		E11CE1441CE79F690056B6C9 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		E11CE1451CE79F690056B6C9 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		E11CE14A1CE7A24D0056B6C9 /* Objective-CBridgingHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Objective-CBridgingHeader.m"; sourceTree = "<group>"; };
-		E11CE14C1CE7BA470056B6C9 /* PagingIntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingIntroViewController.swift; sourceTree = "<group>"; };
+		E11CE14C1CE7BA470056B6C9 /* PagingIntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PagingIntroViewController.swift; path = "../Wildfire App/PagingIntroViewController.swift"; sourceTree = "<group>"; };
 		E143AA981CE80574009DD851 /* projects.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = projects.json; sourceTree = "<group>"; };
-		E1872C311D07AD320058DFAD /* DonateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonateViewController.swift; sourceTree = "<group>"; };
-		E1923A401CEA668300164990 /* FBLoginApISwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBLoginApISwift.swift; sourceTree = "<group>"; };
-		E1923A421CEA6C3E00164990 /* FindCauses.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FindCauses.storyboard; sourceTree = "<group>"; };
-		E1923A441CEBE7CB00164990 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
-		E1B38F8A1D01F49E006AECCD /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E1872C311D07AD320058DFAD /* DonateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DonateViewController.swift; path = "../Wildfire App/DonateViewController.swift"; sourceTree = "<group>"; };
+		E1923A401CEA668300164990 /* FBLoginApISwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FBLoginApISwift.swift; path = "../Wildfire App/FBLoginApISwift.swift"; sourceTree = "<group>"; };
+		E1923A421CEA6C3E00164990 /* Wildfire App */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = "Wildfire App"; path = "../Wildfire App"; sourceTree = "<group>"; };
+		E1923A441CEBE7CB00164990 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataModel.swift; path = "../Wildfire App/DataModel.swift"; sourceTree = "<group>"; };
+		E1B38F8A1D01F49E006AECCD /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = "../Wildfire App/DetailViewController.swift"; sourceTree = "<group>"; };
 		EC67E893C8D9836C3EEE5BD9 /* Pods-Wildfire App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wildfire App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wildfire App/Pods-Wildfire App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,7 +111,7 @@
 				E143AA9A1CE80589009DD851 /* Resources */,
 				E11CE1301CE792E40056B6C9 /* LaunchScreen.storyboard */,
 				E11CE12B1CE792E40056B6C9 /* StartPage.storyboard */,
-				E1923A421CEA6C3E00164990 /* FindCauses.storyboard */,
+				E1923A421CEA6C3E00164990 /* Wildfire App */,
 				E1B38F8A1D01F49E006AECCD /* DetailViewController.swift */,
 				E11CE14C1CE7BA470056B6C9 /* PagingIntroViewController.swift */,
 				E11CE1411CE79E0A0056B6C9 /* ProjectListTableViewController.swift */,
@@ -202,7 +202,7 @@
 				E143AA991CE80574009DD851 /* projects.json in Resources */,
 				E11CE12F1CE792E40056B6C9 /* Assets.xcassets in Resources */,
 				E11CE12D1CE792E40056B6C9 /* StartPage.storyboard in Resources */,
-				E1923A431CEA6C3E00164990 /* FindCauses.storyboard in Resources */,
+				E1923A431CEA6C3E00164990 /* Wildfire App in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
