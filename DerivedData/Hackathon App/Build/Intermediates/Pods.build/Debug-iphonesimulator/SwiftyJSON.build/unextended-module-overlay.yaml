@@ -3,7 +3,7 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': '/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Products/Debug-iphonesimulator/SwiftyJSON.framework/Modules'
+    'name': '/Users/Natalia/Coding/iOS/Hackathon App/DerivedData/Hackathon App/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules'
     'contents': [{
       'type': 'file',
       'name': 'module.modulemap',

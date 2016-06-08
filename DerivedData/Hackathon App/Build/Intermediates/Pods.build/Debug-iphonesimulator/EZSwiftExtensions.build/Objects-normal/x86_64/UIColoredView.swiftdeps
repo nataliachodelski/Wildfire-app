@@ -7,13 +7,13 @@ provides-member:
 - ["C17EZSwiftExtensions13UIColoredView", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "UIColoredView"
+- !private "UIColor"
+- "NSCoder"
+- "UIView"
 - !private "CGRect"
 - !private "StringLiteralType"
-- "UIView"
-- "NSCoder"
-- !private "UIColor"
 - !private "fatalError"
+- "UIColoredView"
 depends-member:
 - !private ["Ps9AnyObject", "CGRect"]
 - !private ["Ps9AnyObject", "UIColor"]

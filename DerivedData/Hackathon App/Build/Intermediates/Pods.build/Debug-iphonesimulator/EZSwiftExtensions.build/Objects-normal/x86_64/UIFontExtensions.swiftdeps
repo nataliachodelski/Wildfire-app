@@ -16,20 +16,20 @@ provides-member:
 - ["CSo6UIFont", "AvenirNextDemiBold"]
 - ["CSo6UIFont", "AvenirNextRegular"]
 provides-dynamic-lookup:
-- "AvenirNextRegular"
 - "AvenirNextDemiBold"
+- "AvenirNextRegular"
 depends-top-level:
-- !private "+"
-- "UIFont"
-- "FontName"
+- "FontType"
 - "String"
 - !private "UnicodeScalarType"
-- "FontType"
-- "StringLiteralType"
-- !private "print"
 - !private "~="
 - "=="
+- !private "+"
+- "UIFont"
 - "CGFloat"
+- "FontName"
+- "StringLiteralType"
+- !private "print"
 depends-member:
 - ["Ps9AnyObject", "AvenirNext"]
 - ["Ps9AnyObject", "AvenirNextDemiBold"]

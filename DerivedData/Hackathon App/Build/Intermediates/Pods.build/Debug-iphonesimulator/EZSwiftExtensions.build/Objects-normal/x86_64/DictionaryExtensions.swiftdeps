@@ -21,24 +21,24 @@ provides-member:
 - ["Vs10Dictionary", "difference"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "UInt32"
-- "-"
-- !private "&&"
-- "Dictionary"
-- !private "arc4random_uniform"
-- "|"
+- "+="
+- !private "Void"
 - "Equatable"
+- !private "!="
 - !private "Int"
 - "Hashable"
-- !private "=="
-- "Bool"
 - !private "!"
-- "&"
-- "+="
-- !private "BooleanLiteralType"
-- !private "Void"
+- !private "arc4random_uniform"
+- "Dictionary"
+- !private "=="
+- !private "UInt32"
+- "Bool"
+- !private "&&"
 - !private "Array"
-- !private "!="
+- "-"
+- "&"
+- !private "BooleanLiteralType"
+- "|"
 depends-member:
 - !private ["Sa", "Generator"]
 - !private ["Sa", "Index"]

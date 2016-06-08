@@ -10,14 +10,14 @@ provides-member:
 - ["Sd", "getCeiledByPlaces"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "*"
-- !private "round"
-- "Int"
-- "String"
-- !private "ceil"
 - "Double"
-- !private "/"
 - !private "pow"
+- !private "/"
+- !private "*"
+- !private "ceil"
+- !private "round"
+- "String"
+- "Int"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "Double"]
 - !private ["Ps16AbsoluteValuable", "Int"]

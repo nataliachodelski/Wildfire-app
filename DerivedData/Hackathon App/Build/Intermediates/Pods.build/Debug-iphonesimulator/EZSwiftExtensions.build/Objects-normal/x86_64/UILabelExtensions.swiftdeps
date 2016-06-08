@@ -13,28 +13,28 @@ provides-member:
 - ["CSo7UILabel", "fitSize"]
 - ["CSo7UILabel", "setText"]
 provides-dynamic-lookup:
-- "getEstimatedWidth"
-- "fitSize"
-- "fitHeight"
-- "getEstimatedHeight"
 - "fitWidth"
+- "fitHeight"
+- "fitSize"
+- "getEstimatedHeight"
+- "getEstimatedWidth"
 - "getEstimatedSize"
 depends-top-level:
+- "NSTimeInterval"
+- "CGSize"
+- !private "UIView"
+- !private "CGRect"
 - "UILabel"
 - !private "UIColor"
-- "Bool"
-- "String"
-- "CGFloat"
 - !private "FontType"
-- !private "UIView"
-- "NSTimeInterval"
+- "String"
 - !private "Void"
-- !private "UIFont"
 - !private "??"
-- !private "CGRect"
-- "CGSize"
-- !private "BooleanLiteralType"
+- "CGFloat"
 - !private "NSTextAlignment"
+- !private "UIFont"
+- !private "BooleanLiteralType"
+- "Bool"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "max"]
 - !private ["Ps9AnyObject", "CGFloat"]
