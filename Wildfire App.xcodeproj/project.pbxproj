@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC5782FA2C46E40FB07FF6D5 /* Pods_Hackathon_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8740729504D1542B200E3350 /* Pods_Hackathon_App.framework */; };
+		1D9E68C462CCDE4455EC2A04 /* Pods_Wildfire_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB33E0E9993FC342443547D7 /* Pods_Wildfire_App.framework */; };
 		E11CE1281CE792E40056B6C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11CE1271CE792E40056B6C9 /* AppDelegate.swift */; };
 		E11CE12D1CE792E40056B6C9 /* StartPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11CE12B1CE792E40056B6C9 /* StartPage.storyboard */; };
 		E11CE12F1CE792E40056B6C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11CE12E1CE792E40056B6C9 /* Assets.xcassets */; };
@@ -28,9 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		231D8151051C3AB09FE063F8 /* Pods-Hackathon App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackathon App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hackathon App/Pods-Hackathon App.debug.xcconfig"; sourceTree = "<group>"; };
-		8740729504D1542B200E3350 /* Pods_Hackathon_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hackathon_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A618BC87340F6C3D892DA56 /* Pods-Hackathon App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackathon App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hackathon App/Pods-Hackathon App.release.xcconfig"; sourceTree = "<group>"; };
+		8B2E5ED38867165B27B3B296 /* Pods-Wildfire App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wildfire App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wildfire App/Pods-Wildfire App.debug.xcconfig"; sourceTree = "<group>"; };
+		DB33E0E9993FC342443547D7 /* Pods_Wildfire_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wildfire_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11CE1241CE792E40056B6C9 /* Wildfire App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wildfire App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11CE1271CE792E40056B6C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E11CE12C1CE792E40056B6C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/StartPage.storyboard; sourceTree = "<group>"; };
@@ -38,18 +37,19 @@
 		E11CE1311CE792E40056B6C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E11CE1331CE792E40056B6C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E11CE13D1CE79C6B0056B6C9 /* ProjectListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectListCell.swift; sourceTree = "<group>"; };
-		E11CE1411CE79E0A0056B6C9 /* ProjectListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProjectListTableViewController.swift; path = ../ProjectListTableViewController.swift; sourceTree = "<group>"; };
+		E11CE1411CE79E0A0056B6C9 /* ProjectListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectListTableViewController.swift; sourceTree = "<group>"; };
 		E11CE1431CE79F690056B6C9 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		E11CE1441CE79F690056B6C9 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		E11CE1451CE79F690056B6C9 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		E11CE14A1CE7A24D0056B6C9 /* Objective-CBridgingHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Objective-CBridgingHeader.m"; sourceTree = "<group>"; };
 		E11CE14C1CE7BA470056B6C9 /* PagingIntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingIntroViewController.swift; sourceTree = "<group>"; };
 		E143AA981CE80574009DD851 /* projects.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = projects.json; sourceTree = "<group>"; };
-		E1872C311D07AD320058DFAD /* DonateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DonateViewController.swift; path = ../DonateViewController.swift; sourceTree = "<group>"; };
+		E1872C311D07AD320058DFAD /* DonateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonateViewController.swift; sourceTree = "<group>"; };
 		E1923A401CEA668300164990 /* FBLoginApISwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBLoginApISwift.swift; sourceTree = "<group>"; };
 		E1923A421CEA6C3E00164990 /* FindCauses.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FindCauses.storyboard; sourceTree = "<group>"; };
 		E1923A441CEBE7CB00164990 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		E1B38F8A1D01F49E006AECCD /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EC67E893C8D9836C3EEE5BD9 /* Pods-Wildfire App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wildfire App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wildfire App/Pods-Wildfire App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 				E11CE1471CE79F690056B6C9 /* FBSDKLoginKit.framework in Frameworks */,
 				E11CE1461CE79F690056B6C9 /* FBSDKCoreKit.framework in Frameworks */,
 				E11CE1481CE79F690056B6C9 /* FBSDKShareKit.framework in Frameworks */,
-				CC5782FA2C46E40FB07FF6D5 /* Pods_Hackathon_App.framework in Frameworks */,
+				1D9E68C462CCDE4455EC2A04 /* Pods_Wildfire_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +73,7 @@
 				E11CE1431CE79F690056B6C9 /* FBSDKCoreKit.framework */,
 				E11CE1441CE79F690056B6C9 /* FBSDKLoginKit.framework */,
 				E11CE1451CE79F690056B6C9 /* FBSDKShareKit.framework */,
-				8740729504D1542B200E3350 /* Pods_Hackathon_App.framework */,
+				DB33E0E9993FC342443547D7 /* Pods_Wildfire_App.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -81,8 +81,8 @@
 		D0CD9D80D2BFC6464C33E532 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				231D8151051C3AB09FE063F8 /* Pods-Hackathon App.debug.xcconfig */,
-				8A618BC87340F6C3D892DA56 /* Pods-Hackathon App.release.xcconfig */,
+				8B2E5ED38867165B27B3B296 /* Pods-Wildfire App.debug.xcconfig */,
+				EC67E893C8D9836C3EEE5BD9 /* Pods-Wildfire App.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -143,12 +143,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E11CE1361CE792E40056B6C9 /* Build configuration list for PBXNativeTarget "Wildfire App" */;
 			buildPhases = (
-				88CF62E7064550492889EFCF /* Check Pods Manifest.lock */,
+				88CF62E7064550492889EFCF /* 📦 Check Pods Manifest.lock */,
 				E11CE1201CE792E40056B6C9 /* Sources */,
 				E11CE1211CE792E40056B6C9 /* Frameworks */,
 				E11CE1221CE792E40056B6C9 /* Resources */,
-				B2DC38F6F998875D0C86849F /* Embed Pods Frameworks */,
-				F1ACD31B7BB60F0EE21FE823 /* Copy Pods Resources */,
+				B2DC38F6F998875D0C86849F /* 📦 Embed Pods Frameworks */,
+				F1ACD31B7BB60F0EE21FE823 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,14 +209,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		88CF62E7064550492889EFCF /* Check Pods Manifest.lock */ = {
+		88CF62E7064550492889EFCF /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,34 +224,34 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		B2DC38F6F998875D0C86849F /* Embed Pods Frameworks */ = {
+		B2DC38F6F998875D0C86849F /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hackathon App/Pods-Hackathon App-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wildfire App/Pods-Wildfire App-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F1ACD31B7BB60F0EE21FE823 /* Copy Pods Resources */ = {
+		F1ACD31B7BB60F0EE21FE823 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hackathon App/Pods-Hackathon App-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wildfire App/Pods-Wildfire App-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -382,7 +382,7 @@
 		};
 		E11CE1371CE792E40056B6C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 231D8151051C3AB09FE063F8 /* Pods-Hackathon App.debug.xcconfig */;
+			baseConfigurationReference = 8B2E5ED38867165B27B3B296 /* Pods-Wildfire App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -405,7 +405,7 @@
 		};
 		E11CE1381CE792E40056B6C9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A618BC87340F6C3D892DA56 /* Pods-Hackathon App.release.xcconfig */;
+			baseConfigurationReference = EC67E893C8D9836C3EEE5BD9 /* Pods-Wildfire App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

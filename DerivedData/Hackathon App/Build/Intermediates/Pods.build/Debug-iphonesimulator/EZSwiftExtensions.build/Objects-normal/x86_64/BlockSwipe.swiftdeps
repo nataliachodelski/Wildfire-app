@@ -8,13 +8,13 @@ provides-member:
 provides-dynamic-lookup:
 - "didSwipe"
 depends-top-level:
-- "Selector"
-- "UISwipeGestureRecognizerDirection"
-- "UISwipeGestureRecognizer"
-- "BlockSwipe"
-- "Void"
 - "AnyObject"
+- "Void"
+- "UISwipeGestureRecognizer"
+- "UISwipeGestureRecognizerDirection"
 - "Int"
+- "Selector"
+- "BlockSwipe"
 depends-member:
 - !private ["Ps9AnyObject", "BlockSwipe"]
 - !private ["Ps9AnyObject", "addTarget"]

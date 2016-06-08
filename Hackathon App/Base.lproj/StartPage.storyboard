@@ -369,7 +369,7 @@
                                     <rect key="frame" x="301" y="20" width="246.5" height="192"/>
                                 </variation>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moneyIcon" translatesAutoresizingMaskIntoConstraints="NO" id="FGb-kY-BtL">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="moneyIcon" translatesAutoresizingMaskIntoConstraints="NO" id="FGb-kY-BtL">
                                 <rect key="frame" x="32" y="347" width="22" height="33"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="22" id="e92-sp-xA0">
@@ -483,27 +483,27 @@
                                 <include reference="FGb-kY-BtL"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="60j-k8-PKm"/>
-                                <include reference="84N-Xq-aw1"/>
-                                <include reference="dsU-be-ljR"/>
-                                <include reference="iR5-vp-fce"/>
                                 <include reference="40s-VS-GzT"/>
                                 <include reference="WRq-rI-SkB"/>
                                 <include reference="iua-hf-bCh"/>
                                 <include reference="vDR-5f-Bvv"/>
                                 <include reference="zks-ga-lfc"/>
-                                <include reference="3NI-he-px1"/>
-                                <include reference="TrD-G7-yUe"/>
-                                <include reference="qWZ-fg-fyN"/>
-                                <include reference="MSP-Gd-8hq"/>
-                                <include reference="TjP-Ba-zYa"/>
-                                <include reference="zop-Zr-Xus"/>
+                                <include reference="60j-k8-PKm"/>
+                                <include reference="84N-Xq-aw1"/>
+                                <include reference="dsU-be-ljR"/>
+                                <include reference="iR5-vp-fce"/>
                                 <include reference="7fL-m4-4PD"/>
                                 <include reference="z03-3I-m5e"/>
                                 <include reference="0oC-NY-3y1"/>
                                 <include reference="GSa-77-wjR"/>
                                 <include reference="XhH-W1-uNM"/>
                                 <include reference="rbo-cJ-u94"/>
+                                <include reference="MSP-Gd-8hq"/>
+                                <include reference="TjP-Ba-zYa"/>
+                                <include reference="zop-Zr-Xus"/>
+                                <include reference="3NI-he-px1"/>
+                                <include reference="TrD-G7-yUe"/>
+                                <include reference="qWZ-fg-fyN"/>
                                 <include reference="RLS-Tq-Hq7"/>
                             </mask>
                         </variation>
@@ -540,7 +540,7 @@
                         <viewControllerLayoutGuide type="bottom" id="92y-7O-MVD"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="aXz-iZ-U2d">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YD1-rH-WcI">
@@ -552,7 +552,7 @@
                                 </constraints>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$25" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x5O-o0-Mvo">
-                                <rect key="frame" x="79" y="385" width="163" height="26"/>
+                                <rect key="frame" x="79" y="385" width="163" height="19.5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20.5" id="Ut5-HF-7hd"/>
                                 </constraints>
