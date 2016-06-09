@@ -1,12 +1,14 @@
 
 ### Wildfire - Readme: 
 
-An iOS app for disaster relief & humanitarian support - Created help causes spread like wilfire.
+An iOS app for disaster relief & humanitarian support - created to facilitate sharing and contributing to humanitarian causes.
 
 Created at the Facebook Hack For the World Hackathon, MAY 14, 2016.
-By  Ozlem Bilis, Erin Pangilinan, Natalia Chodelski, Michelle Dick, Shijie Feng
+By Natalia Chodelski, Ozlem Bilis, Shijie Feng, Michelle Dick,  Erin Pangilinan.
 
-<br>
+![Alt text](https://raw.github.com/nchodelski/Wildfire-app/master/wildfire start screen.png?raw=true "Wildfire-Start-Img")
+
+
 
 ##### What
 A native iOS application enabling users to find, share, save, and contribute to disaster relief and other causes. Users can find causes they care about, and the Wildfire app provides a streamlined donation process, while facilitating sharing the cause or your contribution on Facebook.  
