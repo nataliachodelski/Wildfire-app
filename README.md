@@ -3,8 +3,11 @@
 
 An iOS app for disaster relief & humanitarian support - created to facilitate sharing and contributing to humanitarian causes.
 
-Created at the Facebook Hack For the World Hackathon, MAY 14, 2016.
-By Natalia Chodelski, Ozlem Bilis, Shijie Feng, Michelle Dick,  Erin Pangilinan.
+Facebook "Powerful Women in Tech" 2016 Hackathon App 
+
+Won Best Design category
+
+Team: Natalia Chodelski, Ozlem Bilis, Shijie Feng, Michelle Dick,  Erin Pangilinan.
 
 ![Alt text](https://raw.github.com/nchodelski/Wildfire-app/master/wildfire start screen.png?raw=true "Wildfire-Start-Img")
 
